@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="root"
+   version="1.1"
+   width="841.0mm"
+   height="594.0mm"
+   viewBox="0 0 841.0 594.0"
+   sodipodi:docname="A02 - ELEVATIONS.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.51717104"
+     inkscape:cx="1166.9254"
+     inkscape:cy="869.15153"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="root" />
+  <g
+     data-type="titleblock"
+     id="g1">
+    <image
+       xlink:href="titleblocks%5CA1.svg"
+       x="0"
+       y="0"
+       width="841.0"
+       height="594.0"
+       id="image1" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="129370"
+     data-drawing="3jukCFpDz5jhA3BZkTxEPe"
+     id="g3"
+     transform="translate(0,227.64007)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CFRONTSIDE%20ELEVATION.svg"
+       x="30"
+       y="30"
+       width="333.33334"
+       height="133.13008"
+       id="image2" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="30"
+       y="168.13008"
+       width="50.222462"
+       height="10"
+       id="image3" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="129371"
+     data-drawing="0NwZmiqgX8p9Yusr$rgYyb"
+     id="g5"
+     transform="translate(416.99878,235.14007)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CBACKSIDE%20ELEVATION.svg"
+       x="30"
+       y="30"
+       width="333.33334"
+       height="133.13008"
+       id="image4" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="30"
+       y="168.13008"
+       width="50.222462"
+       height="10"
+       id="image5" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="129372"
+     data-drawing="1gNTcKLxnBE86SPadJwxTP"
+     id="g7"
+     transform="translate(436.99878)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CLEFT%20WING%20ELEVATION.svg"
+       x="30"
+       y="30"
+       width="293.33334"
+       height="133.11778"
+       id="image6" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="30"
+       y="168.11778"
+       width="50.222462"
+       height="10"
+       id="image7" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="129394"
+     data-drawing="17XwlXuXP97RwrUJXGRu4l"
+     id="g9">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CRIGHT%20WING%20ELEVATION.svg"
+       x="30.0"
+       y="30.0"
+       width="293.33333333333337"
+       height="133.11778290993072"
+       id="image8" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="30.0"
+       y="168.11778290993072"
+       width="50.222462"
+       height="10.0"
+       id="image9" />
+  </g>
+</svg>
