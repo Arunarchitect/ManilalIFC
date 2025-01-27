@@ -5,11 +5,34 @@
    version="1.1"
    id="root"
    viewBox="0 0 594 420"
+   sodipodi:docname="A2.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4628552"
+     inkscape:cx="1111.1831"
+     inkscape:cy="1416.0663"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="root" />
   <defs
      id="defs901" />
   <metadata
@@ -81,12 +104,12 @@
     <text
        id="text1421"
        y="280.00699"
-       x="340.28653"
+       x="344.27521"
        style="font-style:normal;font-weight:normal;font-size:2.9705px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.9705px;line-height:100%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none"
          y="280.00699"
-         x="340.28653"
+         x="344.27521"
          id="tspan1419">DRAWING NUMBER</tspan></text>
     <text
        xml:space="preserve"
@@ -111,12 +134,12 @@
     <text
        id="text2533"
        y="284.13919"
-       x="331.07742"
+       x="335.0661"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.54325px;line-height:125%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="stroke-width:0.265;stroke-dasharray:none"
          y="284.13919"
-         x="331.07742"
+         x="335.0661"
          id="tspan2531">{{Identification}}</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -125,22 +148,22 @@
     <text
        id="text36740"
        y="270.05899"
-       x="339.00919"
+       x="342.99786"
        style="font-style:normal;font-weight:normal;font-size:3.05925px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25747;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.05925px;line-height:100%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.25747;stroke-miterlimit:4;stroke-dasharray:none"
          y="270.05899"
-         x="339.00919"
+         x="342.99786"
          id="tspan36738">DRAWING TITLE</tspan></text>
     <text
        id="text36744"
        y="275.05634"
-       x="330.99438"
+       x="334.98306"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.96055px;line-height:125%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.371;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="stroke-width:0.371;stroke-dasharray:none"
          y="275.05634"
-         x="330.99438"
+         x="334.98306"
          id="tspan36742">{{Name}}</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -149,26 +172,26 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.88677px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.169851;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="397.04108"
+       x="400.18506"
        y="249.72177"
        id="text36677"><tspan
          id="tspan36675"
-         x="397.04108"
+         x="400.18506"
          y="249.72177"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.88677px;line-height:100%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.169851;stroke-miterlimit:4;stroke-dasharray:none">GRID NORTH</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.88677px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.169851;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="338.77008"
-       y="249.72177"
+       x="357.58032"
+       y="250.81488"
        id="text36752"><tspan
          id="tspan36750"
-         x="335.76562"
-         y="249.72177"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.88677px;line-height:100%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.169851;stroke-miterlimit:4;stroke-dasharray:none">COMPANY</tspan></text>
+         x="354.57587"
+         y="250.81488"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.88677px;line-height:100%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.169851;stroke-miterlimit:4;stroke-dasharray:none">RESIDENCE FOR MR. MANILAL</tspan></text>
     <g
        id="g37148"
-       transform="translate(399.87519,258.25776)">
+       transform="rotate(180,199.93755,129.00398)">
       <g
          id="g37140"
          data-type="grid-north">
@@ -287,22 +310,22 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.24897px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="180.14232"
-       y="250.54721"
+       x="185.90677"
+       y="252.60786"
        id="text36130"><tspan
          id="tspan36128"
-         x="175.72011"
-         y="250.54721"
+         x="181.48456"
+         y="252.60786"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.24897px;line-height:100%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none">NOTES</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.24897px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="194.37886"
-       y="255.5477"
+       x="207.77299"
+       y="258.28732"
        id="text36768"><tspan
          id="tspan36766"
-         x="189.95665"
-         y="255.5477"
+         x="203.35078"
+         y="258.28732"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.24897px;line-height:100%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none">DO NOT SCALE DRAWINGS</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -318,5 +341,15 @@
          x="160.29811"
          y="250.54721"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.24897px;line-height:100%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none">DATE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.24897px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="197.81551"
+       y="264.9274"
+       id="text1"><tspan
+         id="tspan1"
+         x="193.3933"
+         y="264.9274"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.24897px;line-height:100%;font-family:'OpenGost Type B TT';-inkscape-font-specification:'OpenGost Type B TT';text-align:center;text-anchor:middle;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none">PRINT IN A2 SIZE</tspan></text>
   </g>
 </svg>
