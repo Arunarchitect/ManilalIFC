@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="64.17411999999999mm" id="root" version="1.1" viewBox="0 0 591.15808 64.17411999999999" width="591.15808mm">
+  <defs>
+    <style type="text/css"><![CDATA[/*
+ * Bonsai - OpenBIM Blender Add-on
+ * Copyright (C) 2020, 2021 Dion Moult <dion@thinkmoult.com>
+ *
+ * This file is part of Bonsai.
+ *
+ * Bonsai is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Bonsai is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * long with Bonsai.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**
+ * You may copy this `schedule.css` template alongside your input schedule
+ * document with the same filename. For example if you have a schedule called
+ * `door_types.ods`, you can create a `door_types.css` in the same folder to
+ * style that schedule.
+ */
+
+/**
+ * If you specify a font size in CSS, such as text { font-size: 5; }, all fonts
+ * will be overriden to match that size.
+ *
+ * If your CSS, ODS, XLSX does not specify a font size, the variables below
+ * will specify the default font size.
+ *
+ * If your ODS, XLSX does specify a font size, they will scale linearly based
+ * on the variables below.
+ */
+
+:root {
+    --font-size-pt: 12;
+    --font-size-px: 4.13;
+    --font-width: 0.45;
+}
+
+text, tspan { /* 2.5mm */ fill: black; stroke: none; font-family: 'OpenGost Type B TT', 'DejaVu Sans Condensed', 'Liberation Sans', 'Arial Narrow', 'Arial'; }
+
+.border {
+    stroke: #000000;
+    stroke-width:.125;
+    fill: none; /* will be overriden if background color is set in .ods, or .xlsx */
+}]]></style>
+  </defs>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.539219999999998" x="1" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="4.521199999999999">Index</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="4.521199999999999">Identification</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="369.24996" x="35.53892" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="4.521199999999999">Name</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="405.78888" y="4.521199999999999">Quantity</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="12.16914" x="420.99916" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="421.99916" y="4.521199999999999">Unit</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="434.16830000000004" y="4.521199999999999">Contract</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="450.58940000000007" y="4.521199999999999">Value</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="462.3394400000001" y="4.521199999999999">Material Rate</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="486.39832000000007" y="4.521199999999999">Labor Rate</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="506.64720000000005" y="4.521199999999999">Subtotal</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.78888" x="521.43838" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="522.43838" y="4.521199999999999">Property</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="45.93082" x="544.22726" y="1"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="545.22726" y="4.521199999999999">Query</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.539219999999998" x="1" y="5.521199999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="9.042399999999999">1</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="5.521199999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="9.042399999999999">DB</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="369.24996" x="35.53892" y="5.521199999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="9.042399999999999">Building Estimate</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="5.521199999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="12.16914" x="420.99916" y="5.521199999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="5.521199999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="5.521199999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="5.521199999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="5.521199999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="5.521199999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.78888" x="521.43838" y="5.521199999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="45.93082" x="544.22726" y="5.521199999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.539219999999998" x="1" y="10.042399999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="13.563599999999997">2</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="10.042399999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="13.563599999999997">DB.1</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="369.24996" x="35.53892" y="10.042399999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="13.563599999999997">Brick masonry- in 1:6 cement mortar, 25 cm thick, using high-quality red bricks, including cost and conveyance of all materials to site, labour charges for mixing, laying, curing, scaffolding, and all other incidental charges, complete.</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="10.042399999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="405.78888" y="13.563599999999997">1</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="12.16914" x="420.99916" y="10.042399999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="421.99916" y="13.563599999999997">m3</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="10.042399999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="10.042399999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="450.58940000000007" y="13.563599999999997">10000</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="10.042399999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="10.042399999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="10.042399999999999"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.78888" x="521.43838" y="10.042399999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="522.43838" y="13.563599999999997">NetVolume</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="45.93082" x="544.22726" y="10.042399999999999"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="545.22726" y="13.563599999999997">IfcWall, location=FF</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.539219999999998" x="1" y="14.563599999999997"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="18.084799999999998">2</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="14.563599999999997"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="18.084799999999998">DB.2</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="369.24996" x="35.53892" y="14.563599999999997"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="18.084799999999998">Painting of walls including two coats of wall putty, two coats of primer, and two coats of paint, complete in all respects.</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="14.563599999999997"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="12.16914" x="420.99916" y="14.563599999999997"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="14.563599999999997"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="14.563599999999997"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="14.563599999999997"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="14.563599999999997"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="14.563599999999997"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.78888" x="521.43838" y="14.563599999999997"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="45.93082" x="544.22726" y="14.563599999999997"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.539219999999998" x="1" y="19.084799999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="22.605999999999998">3</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="19.084799999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="22.605999999999998">DB.2.1</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="369.24996" x="35.53892" y="19.084799999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="22.605999999999998">Painting - Ground Floor Walls side 1</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="19.084799999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="405.78888" y="22.605999999999998">1</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="12.16914" x="420.99916" y="19.084799999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="421.99916" y="22.605999999999998">m2</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="19.084799999999998"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="19.084799999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="450.58940000000007" y="22.605999999999998">500</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="19.084799999999998"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="19.084799999999998"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="19.084799999999998"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.78888" x="521.43838" y="19.084799999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="522.43838" y="22.605999999999998">NetSideArea</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="45.93082" x="544.22726" y="19.084799999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="545.22726" y="22.605999999999998">IfcWall, location=FF</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.539219999999998" x="1" y="23.605999999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="27.1272">3</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="23.605999999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="27.1272">DB.2.2</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="369.24996" x="35.53892" y="23.605999999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="27.1272">Painting - Ground Floor Walls side 2</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="23.605999999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="405.78888" y="27.1272">1</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="12.16914" x="420.99916" y="23.605999999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="421.99916" y="27.1272">m2</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="23.605999999999998"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="23.605999999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="450.58940000000007" y="27.1272">500</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="23.605999999999998"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="23.605999999999998"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="23.605999999999998"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.78888" x="521.43838" y="23.605999999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="522.43838" y="27.1272">NetSideArea</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="45.93082" x="544.22726" y="23.605999999999998"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="545.22726" y="27.1272">IfcWall, location=FF</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.539219999999998" x="1" y="28.1272"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="31.648399999999995">2</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="28.1272"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="31.648399999999995">DB.3</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="369.24996" x="35.53892" y="28.1272"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="31.648399999999995">GF Furniture</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="28.1272"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="12.16914" x="420.99916" y="28.1272"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="28.1272"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="28.1272"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="28.1272"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="28.1272"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="28.1272"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.78888" x="521.43838" y="28.1272"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="45.93082" x="544.22726" y="28.1272"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.539219999999998" x="1" y="32.648399999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="36.169599999999996">3</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="32.648399999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="36.169599999999996">DB.3.1</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="369.24996" x="35.53892" y="32.648399999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="36.169599999999996">Bed Frame - King sized (LW-1830x2030mm) Custom wooden design with Headboard, complete with materials, finish, and labour.</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="32.648399999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="405.78888" y="36.169599999999996">1</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="12.16914" x="420.99916" y="32.648399999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="421.99916" y="36.169599999999996">U</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="32.648399999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="32.648399999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="450.58940000000007" y="36.169599999999996">75000</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="32.648399999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="32.648399999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="32.648399999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.78888" x="521.43838" y="32.648399999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="45.93082" x="544.22726" y="32.648399999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="545.22726" y="36.169599999999996">IfcFurniture, type=&quot;King bed&quot;</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="11.539219999999998" x="1" y="37.169599999999996"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="44.650659999999995">3</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="37.169599999999996"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="44.650659999999995">DB.3.2</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="369.24996" x="35.53892" y="37.169599999999996"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="44.650659999999995">Bedside Table - (LWH-750x500x550mm) Custom wooden design with 2 Drawers, complete with materials, finish, and labour.</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="37.169599999999996"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="405.78888" y="44.650659999999995">1</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="12.16914" x="420.99916" y="37.169599999999996"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="421.99916" y="44.650659999999995">U</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="37.169599999999996"/>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="37.169599999999996"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="450.58940000000007" y="44.650659999999995">35000</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="37.169599999999996"/>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="37.169599999999996"/>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="37.169599999999996"/>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="22.78888" x="521.43838" y="37.169599999999996"/>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="45.93082" x="544.22726" y="37.169599999999996"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="545.22726" y="44.650659999999995">type=&quot;Btable_0.7x0.5&quot;</tspan>
+    <tspan class="schedule" dy="-1em" font-size="3.441666666666667" x="545.22726" y="44.650659999999995">IfcFurniture,</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="11.539219999999998" x="1" y="45.650659999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="53.131719999999994">3</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="45.650659999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="53.131719999999994">DB.4.1</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="369.24996" x="35.53892" y="45.650659999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="53.131719999999994">shuttering, curing etc. complete&quot;</tspan>
+    <tspan class="schedule" dy="-1em" font-size="3.441666666666667" x="36.53892" y="53.131719999999994">RCC Floor Slab - &quot;Reinforced cement concrete 1:1.5:3 using 20mm nominal size broken stone for Roof slab including cost and conveyance of all materials to site, labour charges hire and labour for form work,</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="45.650659999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="405.78888" y="53.131719999999994">1</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="12.16914" x="420.99916" y="45.650659999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="421.99916" y="53.131719999999994">m3</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="45.650659999999995"/>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="45.650659999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="450.58940000000007" y="53.131719999999994">25000</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="45.650659999999995"/>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="45.650659999999995"/>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="45.650659999999995"/>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="22.78888" x="521.43838" y="45.650659999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="522.43838" y="53.131719999999994">NetVolume</tspan>
+  </text>
+  <rect class="border" height="8.48106" style="fill: #ffffff;" width="45.93082" x="544.22726" y="45.650659999999995"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="545.22726" y="53.131719999999994">IfcSlab, location=FF</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.539219999999998" x="1" y="54.131719999999994"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="2" y="57.652919999999995">2</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="54.131719999999994"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="13.539219999999998" y="57.652919999999995">DB.4</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="369.24996" x="35.53892" y="54.131719999999994"/>
+  <text class="schedule" dominant-baseline="baseline" font-size="0" text-anchor="start">
+    <tspan class="schedule" dy="0em" font-size="3.441666666666667" x="36.53892" y="57.652919999999995">Structure</tspan>
+  </text>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="54.131719999999994"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="12.16914" x="420.99916" y="54.131719999999994"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="54.131719999999994"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="54.131719999999994"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="54.131719999999994"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="54.131719999999994"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="54.131719999999994"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.78888" x="521.43838" y="54.131719999999994"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="45.93082" x="544.22726" y="54.131719999999994"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.539219999999998" x="1" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.999699999999997" x="12.539219999999998" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="369.24996" x="35.53892" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.210279999999997" x="404.78888" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="12.16914" x="420.99916" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="16.4211" x="433.16830000000004" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="11.75004" x="449.58940000000007" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="24.05888" x="461.3394400000001" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="20.24888" x="485.39832000000007" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="15.79118" x="505.64720000000005" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="22.78888" x="521.43838" y="58.652919999999995"/>
+  <rect class="border" height="4.521199999999999" style="fill: #ffffff;" width="45.93082" x="544.22726" y="58.652919999999995"/>
+</svg>
