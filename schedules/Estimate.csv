@@ -1,0 +1,6 @@
+Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,Subtotal,Property,Query
+1,1,Building Estimate,,,,,,,,,
+2,1.1,Structure,,,,,,,,,
+3,1.1.1,Foundation,,,,,,,,,
+4,1.1.1.1,Walls,,,,,,,,,
+5,1.1.1.1.1,"Earth Work Excavation - digging and  removing soil, sand, or rock from the ground ",,m3,,,,,,UndisturbedVolume,"IfcEarthworksCut, location=""Footing"""
