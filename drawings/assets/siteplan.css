@@ -25,7 +25,7 @@ text, tspan { /* 2.5mm */ fill: rgb(255, 0, 0); stroke: none; font-family: 'Open
 .surface { stroke: none; fill: #fff; fill-rule: evenodd; }
 .annotation { fill: none; stroke: rgb(0, 26, 255); stroke-linecap: 'round'; stroke-width: 0.25; }
 .IfcAnnotation { fill: none; stroke: rgb(0, 38, 255); stroke-linecap: 'round'; stroke-width: 0.25; }
-/* .IfcGeographicElement { fill: none; stroke: black; stroke-linecap: 'round'; stroke-width: 1; } */
+.IfcGeographicElement { fill: none; stroke: rgb(209, 0, 0); stroke-linecap: 'round'; stroke-width: 1; }
 .PredefinedType-LINEWORK { stroke: black; stroke-width: 0.25; }
 .PredefinedType-LINEWORK.dashed { stroke-dasharray: 3, 2; }
 .PredefinedType-LINEWORK.fine { stroke-width: 0.18; stroke: #777777; }
@@ -88,7 +88,7 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 .PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
 .PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
 .material-wood { fill: white; stroke: rgb(2, 124, 8); stroke-width: 0.5; }
-.material-site { fill: white; stroke: rgb(187, 223, 189); stroke-width: 0.1; }
+.material-site { fill: white; stroke: rgb(6, 124, 12); stroke-width: 0.2; }
 
 
 
