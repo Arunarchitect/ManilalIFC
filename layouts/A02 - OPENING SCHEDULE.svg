@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="root" version="1.1" width="1189.0mm" height="841.0mm" viewBox="0 0 1189.0 841.0">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" id="root" version="1.1" width="1189.0mm" height="841.0mm" viewBox="0 0 1189.0 841.0">
     <g data-type="titleblock">
-        <image xlink:href="titleblocks\A0.svg" x="0" y="0" width="1189.0" height="841.0" />
+        <image ns1:href="titleblocks\A0.svg" x="0" y="0" width="1189.0" height="841.0" />
     </g>
-<g data-id="447613" data-type="schedule" data-document="447610"><image data-type="content" xlink:href="..\t.svg" x="30.0" y="30.0" width="591.15808" height="64.17411999999999" /><image data-type="view-title" xlink:href="assets\view-title.svg" x="30.0" y="99.17411999999999" width="50.222462" height="10.0" /></g></svg>
+<g data-id="447613" data-type="schedule" data-document="447610"><image data-type="content" ns1:href="..\t.svg" x="30.0" y="30.0" width="591.15808" height="64.17411999999999" /><image data-type="view-title" ns1:href="assets\view-title.svg" x="30.0" y="99.17411999999999" width="50.222462" height="10.0" /></g></svg>
