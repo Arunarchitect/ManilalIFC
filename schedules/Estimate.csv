@@ -1,45 +1,51 @@
 Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,Subtotal,Property,Query
 1,1,Building Estimate,,,,,,,,,
+2,1.1,Area Calculation,,,,,,,,,
+3,1.1.1,Ground Floor,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""GF"""
+3,,First Floor,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""FF"""
+3,,Verandah,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""Verandah"""
+3,,Balcony,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""Balcony"""
 2,1.1,Structure,,,,,,,,,
 3,1.1.1,Foundation,,,,,,,,,
 4,1.1.1.1,Site Preperation,,,,,,,,,
-5,1.1.1.1.1,"Earth Work Excavation - digging and  removing soil, sand, or rock from the ground ",,m3,,,,,,UndisturbedVolume,"IfcEarthworksCut, location=""My Site"""
+5,1.1.1.1.1,"Earth Work Excavation - digging and  removing soil, sand, or rock from the ground ",,m3,,500,,,,UndisturbedVolume,"IfcEarthworksCut, location=""My Site"""
 4,1.1.1.1,Retaining Wall ,,,,,,,,,
-5,1.1.1.1.2,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,,,,,NetVolume,"IfcSlab, type=""PCC_1400W_100D"""
-5,1.1.1.1.3,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"""
-5,1.1.1.1.3,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"""
+5,1.1.1.1.2,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,8000,,,,NetVolume,"IfcSlab, type=""PCC_1400W_100D"""
+5,1.1.1.1.3,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,25000,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"""
 4,1.1.1.1,Columns,,,,,,,,,
-5,1.1.1.1.1,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,,,,,NetVolume,"IfcSlab, type=""PCC_0.12D"" + IfcSlab, type=""PCC_0.1D"""
-5,1.1.1.1.1,RCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,,,,,NetVolume,IfcFooting
+5,1.1.1.1.1,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,25000,,,,NetVolume,"IfcSlab, type=""PCC_0.12D"" + IfcSlab, type=""PCC_0.1D"""
+5,1.1.1.1.1,RCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,25000,,,,NetVolume,IfcFooting
+4,1.1.1.1,EarthworksFill,,,,,,,,,
+5,1.1.1.1.1,EarthworksFill and compacting,,m3,,500,,,,CompactedVolume,IfcEarthworksFill
 3,1.1.1,SuperStructure,,,,,,,,,
 4,1.1.1.1,Columns,,,,,,,,,
-5,1.1.1.4.1,Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,,,,,NetVolume,IfcColumn
+5,1.1.1.4.1,Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,25000,,,,NetVolume,IfcColumn
 ,,,,,,,,,,,
 4,1.1.1.1,Retaining Wall,,,,,,,,,
-5,1.1.1.4.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"""
+5,1.1.1.4.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,25000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"""
 4,1.1.1.5,Slabs,,,,,,,,,
-5,1.1.1.5.1,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m3,,,,,,NetVolume,"IfcSlab, location=FF"
-5,1.1.1.5.2,RCC Floor Slab – Second Floor – Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,,,,,NetVolume,"IfcSlab, location=SF"
+5,1.1.1.5.1,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m3,,25000,,,,NetVolume,"IfcSlab, location=FF"
+5,1.1.1.5.2,RCC Floor Slab – Second Floor – Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,25000,,,,NetVolume,"IfcSlab, location=SF"
 4,1.1.1.6,Beams,,,,,,,,,
-5,1.1.1.6.2,Structural Beams – Ground Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,,,,,NetVolume,"IfcBeam, location=Footing + IfcBeam, location=FF +IfcBeam, location=SF"
+5,1.1.1.6.2,Structural Beams – Ground Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,25000,,,,NetVolume,"IfcBeam, location=Footing + IfcBeam, location=FF +IfcBeam, location=SF"
 4,1.1.1.6,Walls,,,,,,,,,
-5,1.1.1.6.2,Brick Partition Wall – Ground Floor,,m3,,,,,,NetVolume,"IfcWall, location=GF"
-5,1.1.1.6.2,Brick Partition Wall – First Floor,,m3,,,,,,NetVolume,"IfcWall, location=FF"
+5,1.1.1.6.2,Brick Partition Wall – Ground Floor,,m3,,10000,,,,NetVolume,"IfcWall, location=GF"
+5,1.1.1.6.2,Brick Partition Wall – First Floor,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 2,1.1,Joineries,,,,,,,,,
 3,1.1.1,Doors,,,,,,,,,
 4,1.1.1.1,Ground Floor,,,,,,,,,
-5,1.1.1.1.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Left"" "
-5,1.1.1.1.1,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
-5,1.1.1.1.1,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
-5,1.1.1.1.1,0.8m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 800x2100mm Right"" "
+5,1.1.1.1.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Left"" "
+5,1.1.1.1.1,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
+5,1.1.1.1.1,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
+5,1.1.1.1.1,0.8m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,18000,,,,,"IfcDoor, location=GF, type=""Door 800x2100mm Right"" "
 3,1.1.1,First Floor,,,,,,,,,
 4,1.1.1.1,FRP Doors,,,,,,,,,
-5,1.1.1.1.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Left"" "
-5,1.1.1.1.1,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
-5,1.1.1.1.1,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
-5,1.1.1.1.1,0.9m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 900x2100mm Right"" "
+5,1.1.1.1.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=FF, type=""Door 1000x2100mm Left"" "
+5,1.1.1.1.1,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=FF, type=""Door 1000x2100mm Right"" "
+5,1.1.1.1.1,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=FF, type=""Door 1000x2100mm Right"" "
+5,1.1.1.1.1,0.9m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,18000,,,,,"IfcDoor, location=FF, type=""Door 900x2100mm Right"" "
 ,,,,,,,,,,,
 3,1.1.1,Glass Doors and Windows,,lumsum,,4600000,,,4600000,,
 ,,,,,,,,,,,
@@ -57,7 +63,7 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.2.3.1,Floor Tile Skirting- Ground Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=GF , type=""Tile_skirting"""
 4,1.2.3.2,Floor Tiles- First Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=FF , type=""Tile 5cm"""
 3,1.2.3,Wall Tiles,,,,,,,,,
-4,1.2.3.1,Ground Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Tile_2cm"""
+4,1.2.3.1,Ground Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Bathtile"", location=GF"
 4,1.2.3.1,First Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Bathtile"", location=FF"
 3,1.2.4,"False Ceiling – Providing and fixing 12.5 mm thick gypsum board false ceiling with necessary framing, finishing, and labour charges complete.",,,,,,,,,
-4,1.2.3.3,False ceiling Works in Carporch,,m2,,1080,,,,NetArea,"IfcCovering, location=GFLintel"
+4,1.2.3.3,Ground and First Floor,,m2,,1080,,,,NetArea,"IfcCovering, type=""50mm gypsum"""
