@@ -28,9 +28,36 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 2,1.1,Joineries,,,,,,,,,
-3,1.1.1,Ground Floor,,,,,,,,,
-4,1.1.1.1,FRP Doors,,,,,,,,,
+3,1.1.1,Doors,,,,,,,,,
+4,1.1.1.1,Ground Floor,,,,,,,,,
 5,1.1.1.1.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Left"" "
 5,1.1.1.1.1,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
 5,1.1.1.1.1,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
 5,1.1.1.1.1,0.8m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 800x2100mm Right"" "
+3,1.1.1,First Floor,,,,,,,,,
+4,1.1.1.1,FRP Doors,,,,,,,,,
+5,1.1.1.1.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Left"" "
+5,1.1.1.1.1,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
+5,1.1.1.1.1,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
+5,1.1.1.1.1,0.9m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 900x2100mm Right"" "
+,,,,,,,,,,,
+3,1.1.1,Glass Doors and Windows,,lumsum,,4600000,,,4600000,,
+,,,,,,,,,,,
+2,1.2,Finishes,,,,,,,,,
+3,1.2.1,"Painting of walls including two coats of wall putty, two coats of primer, and two coats of paint, complete in all respects.",,,,,,,,,
+4,1.2.1.1,Painting - Ground Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF"
+4,1.2.1.2,Painting - Ground Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=FF"
+4,1.2.1.3,Painting – First Floor Slab Bottom,,m2,,500,,,,NetArea,04Jv$VtL1EsBUiQ15mYIZw
+3,1.2.2,"Plastering walls with mix ratio 1:4, 12mm thick one coat floated hard and trowelled smooth including cost and conveyance of all materials to site, labour charges for curing, watering, scaffolding etc. complete",,,,,,,,,
+4,1.2.2.1,Plastering - Ground Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF"
+4,1.2.2.2,Plastering - Ground Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=FF"
+3,1.2.3,"Floor finishing using tiles including cost of materials and labor. Material cost range
+ upto Rs.60/Sq.ft",,,,,,,,,
+4,1.2.3.1,Floor Tiles- Ground Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=GF , type=""Tile 5cm"""
+4,1.2.3.1,Floor Tile Skirting- Ground Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=GF , type=""Tile_skirting"""
+4,1.2.3.2,Floor Tiles- First Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=FF , type=""Tile 5cm"""
+3,1.2.3,Wall Tiles,,,,,,,,,
+4,1.2.3.1,Ground Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Tile_2cm"""
+4,1.2.3.1,First Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Bathtile"", location=FF"
+3,1.2.4,"False Ceiling – Providing and fixing 12.5 mm thick gypsum board false ceiling with necessary framing, finishing, and labour charges complete.",,,,,,,,,
+4,1.2.3.3,False ceiling Works in Carporch,,m2,,1080,,,,NetArea,"IfcCovering, location=GFLintel"
