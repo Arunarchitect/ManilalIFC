@@ -11,7 +11,7 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.1.1.1,Columns,,,,,,,,,
 5,1.1.1.1.1,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,,,,,NetVolume,"IfcSlab, type=""PCC_0.12D"" + IfcSlab, type=""PCC_0.1D"""
 5,1.1.1.1.1,RCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,,,,,NetVolume,IfcFooting
-3,1.1.1,Structure,,,,,,,,,
+3,1.1.1,SuperStructure,,,,,,,,,
 4,1.1.1.1,Columns,,,,,,,,,
 5,1.1.1.4.1,Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,,,,,NetVolume,IfcColumn
 ,,,,,,,,,,,
@@ -22,3 +22,15 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 5,1.1.1.5.2,RCC Floor Slab – Second Floor – Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,,,,,NetVolume,"IfcSlab, location=SF"
 4,1.1.1.6,Beams,,,,,,,,,
 5,1.1.1.6.2,Structural Beams – Ground Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,,,,,NetVolume,"IfcBeam, location=Footing + IfcBeam, location=FF +IfcBeam, location=SF"
+4,1.1.1.6,Walls,,,,,,,,,
+5,1.1.1.6.2,Brick Partition Wall – Ground Floor,,m3,,,,,,NetVolume,"IfcWall, location=GF"
+5,1.1.1.6.2,Brick Partition Wall – First Floor,,m3,,,,,,NetVolume,"IfcWall, location=FF"
+,,,,,,,,,,,
+,,,,,,,,,,,
+2,1.1,Joineries,,,,,,,,,
+3,1.1.1,Ground Floor,,,,,,,,,
+4,1.1.1.1,FRP Doors,,,,,,,,,
+5,1.1.1.1.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Left"" "
+5,1.1.1.1.1,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
+5,1.1.1.1.1,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
+5,1.1.1.1.1,0.8m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,,,,,,"IfcDoor, location=GF, type=""Door 800x2100mm Right"" "
