@@ -1,0 +1,25 @@
+Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,Subtotal,Property,Query
+1,1,With Void ( No Earth Fill),,,,,,,,,
+2,1.1,Wall,,m3,,10000,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,1.2,Plaster ,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,1.3,Plaster Inside,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,1.4,Painting,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,1.5,Painting Inside,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,1.6,Painting Inside,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,1.7,PCC,,m3,,10000,,,,NetVolume,"IfcSlab, ""EPset_Status"".""Status"" = ""NEW"", type=""PCC_1400W_100D"""
+2,1.8,Footing,,m3,,25000,,,,NetVolume,"IfcSlab, ""EPset_Status"".""Status"" = ""NEW"", type=""RCC_1400W_350D"""
+2,1.9,Floor PCC,,m3,,10000,,,,NetVolume,"IfcSlab,type=""PCC_0.1D"", ""EPset_Status"".""Status"" = ""NEW"""
+2,2,Retaining Wall,,m3,,10000,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""NEW"""
+2,2.1,Retaining Wall Water Proof 1 Side,,m3,,1000,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+,,,,,,,,,,,
+1,2,With EarthFill,,,,,,,,,
+2,2.1,Retaining Wall,,m3,,10000,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,2.1,Retaining Wall Water Proof 1 Side,,m2,,1000,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,2.2,EarthFill,,m3,,1000,,,,CompactedVolume,"IfcEarthworksFill, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,2.3,Plaster ,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,2.4,Plaster Inside,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,2.5,Painting,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,2.6,Painting Inside,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,2.7,Painting Inside,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
+2,1.7,PCC,,m3,,10000,,,,NetVolume,"IfcSlab, ""EPset_Status"".""Status"" = ""TEMPORARY"", type=""PCC_1400W_100D"""
+2,1.8,Footing,,m3,,25000,,,,NetVolume,"IfcSlab, ""EPset_Status"".""Status"" = ""TEMPORARY"", type=""RCC_1400W_350D"""
