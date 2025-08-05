@@ -1,0 +1,6 @@
+Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,Subtotal,Property,Query
+1,1.1,Total Area,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"""
+1,1.2,Ground Floor,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""GF"""
+1,1.3,First Floor,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""FF"""
+1,1.4,Verandah,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""Verandah"""
+1,1.5,Balcony,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""Balcony"""
