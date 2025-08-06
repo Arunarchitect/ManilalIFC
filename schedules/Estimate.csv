@@ -1,10 +1,5 @@
 Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,Subtotal,Property,Query
 1,1,Building Estimate,,,,,,,,,
-2,1.1,Area Calculation,,,,,,,,,
-3,1.1.1,Ground Floor,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""GF"""
-3,,First Floor,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""FF"""
-3,,Verandah,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""Verandah"""
-3,,Balcony,,m2,,,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""Balcony"""
 2,1.1,Structure,,,,,,,,,
 3,1.1.1,Foundation,,,,,,,,,
 4,1.1.1.1,Site Preperation,,,,,,,,,
@@ -31,6 +26,7 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.1.1.6,Walls,,,,,,,,,
 5,1.1.1.6.2,Brick Partition Wall – Ground Floor,,m3,,10000,,,,NetVolume,"IfcWall, location=GF"
 5,1.1.1.6.2,Brick Partition Wall – First Floor,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
+3,1.1.1,Roof – fabricated using Steel trusses and overlaid with GI Roofing sheet,,m2,,3250,,,,NetArea,IfcRoof
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 2,1.1,Joineries,,,,,,,,,
@@ -67,3 +63,11 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.2.3.1,First Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Bathtile"", location=FF"
 3,1.2.4,"False Ceiling – Providing and fixing 12.5 mm thick gypsum board false ceiling with necessary framing, finishing, and labour charges complete.",,,,,,,,,
 4,1.2.3.3,Ground and First Floor,,m2,,1080,,,,NetArea,"IfcCovering, type=""50mm gypsum"""
+,,,,,,,,,,,
+,,,,,,,,,,,
+2,1.2,Water Supply and Sanitation,,,,,,,,,
+3,1.2.1,Tube Well,,,,,,,,,
+4,1.2.3.3,Tube Well hole drill,,m,,1476.38,,,,Length,IfcBorehole
+4,1.2.3.3,Tube Well Pipe,,m,,574.14,,,,Length,"IfcPipeSegment, type=""4inch Borewell"""
+4,1.2.3.3,Extra Pipe,,m,,131.23,,,,Length,"IfcPipeSegment, type=""4inch Borewell extra pipe"""
+4,1.2.3.3,Water for Drilling (unit in Loads),6,U,,250,,,,,
