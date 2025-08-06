@@ -44,6 +44,8 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 5,1.1.1.1.1,0.9m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,18000,,,,,"IfcDoor, location=FF, type=""Door 900x2100mm Right"" "
 ,,,,,,,,,,,
 3,1.1.1,Glass Doors and Windows,,lumsum,,4600000,,,4600000,,
+3,1.1.1,Glass Handrails,,m,,1000,,,,,"IfcRailing, type=""Glassrail_1m"""
+,,,,,,,,,,,
 ,,,,,,,,,,,
 2,1.2,Finishes,,,,,,,,,
 3,1.2.1,"Painting of walls including two coats of wall putty, two coats of primer, and two coats of paint, complete in all respects.",,,,,,,,,
