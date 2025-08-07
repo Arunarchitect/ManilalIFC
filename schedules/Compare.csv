@@ -8,7 +8,7 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 2,1.6,Painting Inside,,m2,,500,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
 2,1.7,PCC,,m3,,10000,,,,NetVolume,"IfcSlab, ""EPset_Status"".""Status"" = ""NEW"", type=""PCC_1400W_100D"""
 2,1.8,Footing,,m3,,25000,,,,NetVolume,"IfcSlab, ""EPset_Status"".""Status"" = ""NEW"", type=""RCC_1400W_350D"""
-2,1.9,Floor PCC,,m3,,10000,,,,NetVolume,"IfcSlab,type=""PCC_0.1D"", ""EPset_Status"".""Status"" = ""NEW"""
+2,1.9,Floor PCC,,m3,,10000,,,,NetVolume,"IfcSlab,type=""Floor_PCC_0.1D "", ""EPset_Status"".""Status"" = ""NEW"""
 2,2,Retaining Wall,,m3,,10000,,,,NetVolume,"IfcWall, ""EPset_Status"".""Status"" = ""NEW"""
 2,2.1,Retaining Wall Water Proof 1 Side,,m3,,1000,,,,NetSideArea,"IfcWall, ""EPset_Status"".""Status"" = ""TEMPORARY"""
 ,,,,,,,,,,,
