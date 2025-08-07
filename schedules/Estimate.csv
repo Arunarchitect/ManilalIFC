@@ -5,32 +5,32 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.1.1.1,Site Preperation,,,,,,,,,
 5,1.1.1.1.1,"Earth Work Excavation - digging and  removing soil, sand, or rock from the ground ",,m3,,500,,,,UndisturbedVolume,"IfcEarthworksCut, location=""My Site"""
 4,1.1.1.1,Retaining Wall ,,,,,,,,,
-5,1.1.1.1.2,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,8000,,,,NetVolume,"IfcSlab, type=""PCC_1400W_100D"", ""EPset_Status"".""Status"" = ""NEW"""
-5,1.1.1.1.3,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,25000,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"", ""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.1.2,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,10000,,,,NetVolume,"IfcSlab, type=""PCC_1400W_100D"", ""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.1.3,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,22000,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"", ""EPset_Status"".""Status"" = ""NEW"""
 4,1.1.1.1,Columns,,,,,,,,,
-5,1.1.1.1.1,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,25000,,,,NetVolume,"IfcSlab, type=""PCC_0.12D"", ""EPset_Status"".""Status"" = ""NEW"" + IfcSlab, type=""PCC_0.1D"", ""EPset_Status"".""Status"" = ""NEW"""
-5,1.1.1.1.1,RCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,25000,,,,NetVolume,"IfcFooting,""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.1.1,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,22000,,,,NetVolume,"IfcSlab, type=""PCC_0.12D"", ""EPset_Status"".""Status"" = ""NEW"" + IfcSlab, type=""PCC_0.1D"", ""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.1.1,RCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,22000,,,,NetVolume,"IfcFooting,""EPset_Status"".""Status"" = ""NEW"""
 4,1.1.1.1,EarthworksFill,,,,,,,,,
-5,1.1.1.1.1,EarthworksFill and compacting,,m3,,500,,,,CompactedVolume,"IfcEarthworksFill,""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.1.1,"EarthworksFill and compacting, soil from outside",,m3,,2200,,,,CompactedVolume,"IfcEarthworksFill,""EPset_Status"".""Status"" = ""NEW"""
 3,1.1.1,SuperStructure,,,,,,,,,
 4,1.1.1.1,Columns,,,,,,,,,
-5,1.1.1.4.1,Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,25000,,,,NetVolume,IfcColumn
+5,1.1.1.4.1,Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,32000,,,,NetVolume,IfcColumn
 ,,,,,,,,,,,
 4,1.1.1.1,Retaining Wall,,,,,,,,,
-5,1.1.1.4.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,25000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.4.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""NEW"""
 4,1.1.1.5,Floors,,,,,,,,,
-5,1.1.1.6.2,New Floor PCC with foundation to fill void,,m3,,15000,,,,NetVolume,"IfcSlab, type=""FloorPCC"", ""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.6.2,New Floor PCC with foundation to fill void,,m3,,10000,,,,NetVolume,"IfcSlab, type=""FloorPCC"", ""EPset_Status"".""Status"" = ""NEW"""
 5,1.1.1.6.2,PCC First Floor,,m3,,10000,,,,NetVolume,"IfcSlab, type=""FloorPCC"",location=FF, ""EPset_Status"".""Status"" = ""NEW"""
-5,1.1.1.5.1,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m3,,25000,,,,NetVolume,"IfcSlab,type=""RCC_0.1D"", location=FF"
-5,1.1.1.5.2,RCC Floor Slab – Second Floor – Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,25000,,,,NetVolume,"IfcSlab, location=SF"
+5,1.1.1.5.1,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m3,,20000,,,,NetVolume,"IfcSlab,type=""RCC_0.1D"", location=FF"
+5,1.1.1.5.2,RCC Floor Slab – Second Floor – Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,20000,,,,NetVolume,"IfcSlab, location=SF"
 4,1.1.1.6,Beams,,,,,,,,,
-5,1.1.1.6.2,Structural Beams – Ground Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,25000,,,,NetVolume,"IfcBeam, location=Footing + IfcBeam, location=FF +IfcBeam, location=SF"
+5,1.1.1.6.2,Structural Beams – Ground Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=Footing + IfcBeam, location=FF +IfcBeam, location=SF"
 4,1.1.1.6,Walls,,,,,,,,,
-5,1.1.1.6.2,Brick Partition Wall – Ground Floor,,m3,,10000,,,,NetVolume,"IfcWall, location=GF"
-5,1.1.1.6.2,Brick Partition Wall – First Floor,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
+5,1.1.1.6.2,Brick Partition Wall – Ground Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=GF"
+5,1.1.1.6.2,Brick Partition Wall – First Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
 5,1.1.1.6.2,New Brickwork with foundation to fill void,,m3,,15000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""TEMPORARY"""
 4,1.1.1.6,Staircase,,,,,,,,,
-5,1.1.1.6.2,RCC Stair,,m3,,25000,,,,NetVolume,"IfcStairFlight,type=""ST-01""+IfcStairFlight,type=""ST-02"""
+5,1.1.1.6.2,RCC Stair,,m3,,26500,,,,NetVolume,"IfcStairFlight,type=""ST-01""+IfcStairFlight,type=""ST-02"""
 3,1.1.1,Roof – fabricated using Steel trusses and overlaid with GI Roofing sheet,,m2,,3250,,,,NetArea,IfcRoof
 ,,,,,,,,,,,
 ,,,,,,,,,,,
@@ -49,8 +49,8 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 5,1.1.1.1.1,0.9m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,18000,,,,,"IfcDoor, location=FF, type=""Door 900x2100mm Right"" "
 ,,,,,,,,,,,
 3,1.1.1,Glass Doors and Windows,,lumsum,,4646219,,,4646219,,
-3,1.1.1,Glass Handrails,,m,,1000,,,,,"IfcRailing, type=""Glassrail_1m"""
-3,1.1.1,Metal Cladding (need correct pricing as this is not commonly used),,m2,,1300,,,,Length,"IfcBeam, type=""70cm"""
+3,1.1.1,Glass Handrails,,m,,2000,,,,,"IfcRailing, type=""Glassrail_1m"""
+3,1.1.1,Metal Cladding (need correct pricing as this is not commonly used),,m,,1300,,,,Length,"IfcBeam, type=""70cm"""
 ,,,,,,,,,,,
 2,1.2,Finishes,,,,,,,,,
 3,1.2.1,"Painting of walls including two coats of wall putty, two coats of primer, and two coats of paint, complete in all respects.",,,,,,,,,
@@ -79,6 +79,13 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.2.3.3,Extra Pipe,,m,,131.23,,,,Length,"IfcPipeSegment, type=""4inch Borewell extra pipe"""
 4,1.2.3.3,Water for Drilling (unit in Loads),6,U,,250,,,,,
 3,1.2.1,Plumbing Approx. Cost,,m2,,1500,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""GF"" +IfcSlab, location=""Areacalc"", Name=""FF"""
+3,1.2.1,Sanitary Fittings,,,,,,,,,
+4,1.2.3.3,Double Bowl Sink,,U,,15000,,,,,"type=""FRANKE_2BOWL_SINK_1.2x.46x.21"""
+4,1.2.3.3,Shower,,U,,6000,,,,,"type=""OH_Shower"""
+4,1.2.3.3,Wash Basin,,U,,16000,,,,,"type=""Wash_0.6x0.55"""
+4,1.2.3.3,Water Closet,,U,,16000,,,,,"type=""WC"""
+4,1.8.2,Shower Cubicle ,,U,,35000,,,,,"IfcSanitaryTerminal, type=""Shower 90 x170 Left Entry"""
+4,1.8.2,Shower Cubicle Corner,,U,,30000,,,,,"IfcSanitaryTerminal, type=""Corner Shower 90"""
 ,,,,,,,,,,,
 2,1.1,Landscape,,,,,,,,,
 3,1.2.1,Site Full Approx,,m2,,100,,,,PlotArea,"IfcGeographicElement, Name=""Site"""
