@@ -74,11 +74,10 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 ,,,,,,,,,,,
 2,1.2,Water Supply and Sanitation,,,,,,,,,
 3,1.2.1,Tube Well,,,,,,,,,
-4,1.2.3.3,Tube Well hole drill,,m,,1476.38,,,,Length,IfcBorehole
+4,1.2.3.3,"Tube Well hole drill; For upto 300m its 450rs per feet and after that, the extra pipe length is calculated with 40rs extra per feet",,m,,1476.38,,,,Length,IfcBorehole
 4,1.2.3.3,Tube Well Pipe,,m,,574.14,,,,Length,"IfcPipeSegment, type=""4inch Borewell"""
 4,1.2.3.3,Extra Pipe,,m,,131.23,,,,Length,"IfcPipeSegment, type=""4inch Borewell extra pipe"""
 4,1.2.3.3,Water for Drilling (unit in Loads),6,U,,250,,,,,
-3,1.2.1,Plumbing Approx. Cost,,m2,,1500,,,,NetArea,"IfcSlab, location=""Areacalc"", Name=""GF"" +IfcSlab, location=""Areacalc"", Name=""FF"""
 3,1.2.1,Sanitary Fittings,,,,,,,,,
 4,1.2.3.3,Double Bowl Sink,,U,,15000,,,,,"type=""FRANKE_2BOWL_SINK_1.2x.46x.21"""
 4,1.2.3.3,Shower,,U,,6000,,,,,"type=""OH_Shower"""
