@@ -106,7 +106,9 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 ,,,,,,,,,,,
 2,1.1,Electrical ,,,,,,,,,
 3,1.2.1,Electrical Fixtures,,,,,,,,,
-4,1.5.1.1.2,BLDC Ceiling Fan,,U,,5000,,,,,"IfcElectricAppliance, type=""BLDC_CFAN"""
+4,1.5.1.1.2,BLDC Smart Ceiling Fan,,U,,5000,,,,,"IfcElectricAppliance, type=""BLDC_CFAN"""
+4,1.5.1.1.2,15W LED lights,,U,,600,,,,,"IfcElectricAppliance, type=""BLDC_CFAN"""
+4,1.5.1.1.2,6W Footlamps,,U,,450,,,,,"IfcElectricAppliance, type=""BLDC_CFAN"""
 3,1.5.1.1.3,Solar Panel 500W,,U,,25000,,,,,"IfcSolarDevice, type=""1x2_500W_SPANEL"""
 3,1.5.1.1.4,Motor Pump 1.5HP,,U,,45000,,,,,"IfcPump, type=""1.5HP"""
 3,1.5.1.1.5,Conduits and Labor,,lumsum,,150000,,,150000,,
