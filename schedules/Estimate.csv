@@ -3,21 +3,21 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 2,1.1,Structure,,,,,,,,,
 3,1.1.1,Foundation,,,,,,,,,
 4,1.1.1.1,Site Preperation,,,,,,,,,
-5,1.1.1.1.1,"Earth Work Excavation - digging and  removing soil, sand, or rock from the ground ",,m3,,500,,,,UndisturbedVolume,"IfcEarthworksCut, location=""My Site"""
+5,1.1.1.1.1,"Earth Work Excavation - digging and  removing soil, sand, or rock from the ground and Temporary Shed and Toilet",,m3,,500,,,,UndisturbedVolume,"IfcEarthworksCut, location=""My Site"""
 4,1.1.1.1,Retaining Wall ,,,,,,,,,
-5,1.1.1.1.2,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,10000,,,,NetVolume,"IfcSlab, type=""PCC_1400W_100D"", ""EPset_Status"".""Status"" = ""NEW"""
-5,1.1.1.1.3,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,22000,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"", ""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.1.2,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,10000,,,,NetVolume,"IfcSlab, type=""PCC_1400W_100D"", ""EPset_Status"".""Status"" = ""TEMPORARY"" + IfcSlab, type=""PCC_1400W_100D"", ""EPset_Status"".""Status"" = ""EXISITNG"""
+5,1.1.1.1.3,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,22000,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"", ""EPset_Status"".""Status"" = ""TEMPORARY"" +IfcSlab, type=""RCC_1400W_350D"", ""EPset_Status"".""Status"" = ""EXISTING"""
 4,1.1.1.1,Columns,,,,,,,,,
 5,1.1.1.1.1,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,22000,,,,NetVolume,"IfcSlab, type=""PCC_0.12D"", ""EPset_Status"".""Status"" = ""NEW"" + IfcSlab, type=""PCC_0.1D"", ""EPset_Status"".""Status"" = ""NEW"""
 5,1.1.1.1.1,RCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,22000,,,,NetVolume,"IfcFooting,""EPset_Status"".""Status"" = ""NEW"""
 4,1.1.1.1,EarthworksFill,,,,,,,,,
-5,1.1.1.1.1,"EarthworksFill and compacting, soil from outside",,m3,,2200,,,,CompactedVolume,"IfcEarthworksFill,""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.1.1,"EarthworksFill and compacting, soil from outside",,m3,,2000,,,,CompactedVolume,"IfcEarthworksFill,""EPset_Status"".""Status"" = ""NEW""+IfcEarthworksFill,""EPset_Status"".""Status"" = ""TEMPORARY"""
 3,1.1.1,SuperStructure,,,,,,,,,
 4,1.1.1.1,Columns,,,,,,,,,
 5,1.1.1.4.1,Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,32000,,,,NetVolume,IfcColumn
 ,,,,,,,,,,,
 4,1.1.1.1,Retaining Wall,,,,,,,,,
-5,1.1.1.4.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.4.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""TEMPORARY""+IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""EXISTING"""
 4,1.1.1.5,Floors,,,,,,,,,
 5,1.1.1.6.2,New Floor PCC with foundation to fill void,,m3,,10000,,,,NetVolume,"IfcSlab, type=""FloorPCC"", ""EPset_Status"".""Status"" = ""NEW"""
 5,1.1.1.6.2,PCC First Floor,,m3,,10000,,,,NetVolume,"IfcSlab, type=""FloorPCC"",location=FF, ""EPset_Status"".""Status"" = ""NEW"""
@@ -28,7 +28,6 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.1.1.6,Walls,,,,,,,,,
 5,1.1.1.6.2,Brick Partition Wall – Ground Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=GF"
 5,1.1.1.6.2,Brick Partition Wall – First Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
-5,1.1.1.6.2,New Brickwork with foundation to fill void,,m3,,15000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""TEMPORARY"""
 4,1.1.1.6,Staircase,,,,,,,,,
 5,1.1.1.6.2,RCC Stair,,m3,,26500,,,,NetVolume,"IfcStairFlight,type=""ST-01""+IfcStairFlight,type=""ST-02"""
 3,1.1.1,Roof – fabricated using Steel trusses and overlaid with GI Roofing sheet,,m2,,3250,,,,NetArea,IfcRoof
@@ -70,6 +69,8 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.2.3.1,First Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Bathtile"", location=FF"
 3,1.2.4,"False Ceiling – Providing and fixing 12.5 mm thick gypsum board false ceiling with necessary framing, finishing, and labour charges complete.",,,,,,,,,
 4,1.2.3.3,Ground and First Floor,,m2,,1080,,,,NetArea,"IfcCovering, type=""50mm gypsum"""
+3,1.2.4,Solid Surface top in Kitchen,,m2,,,,,,NetArea,"IfcCovering, type=""12mm SolidSurfaceTop"""
+,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 2,1.2,Water Supply and Sanitation,,,,,,,,,
@@ -96,19 +97,56 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 3,1.8.,Pipes – Material and Labor,,lumsum,,180000,,,180000,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
-2,1.1,Landscape,,,,,,,,,
-3,1.2.1,Site Full Approx,,m2,,100,,,,PlotArea,"IfcGeographicElement, Name=""Site"""
-3,1.2.1,Gate,,U,,150000,,,,,"type=""DG_3x1.8_2PH_SW"""
-3,1.2.1,Compound Wall,,m3,,20000,,,,NetVolume,"IfcWall, location=""Site"""
-3,1.2.1,Interlock,,,,,,,,,
-4,1.2.3.3,Frontyard,,m2,,500,,,,NetArea,"IfcCovering, type=""Interlock"""
-4,1.2.3.3,Ramp,,m2,,500,,,,TopArea,3NfQzW2p90kemh8IGcUxhf
 ,,,,,,,,,,,
 2,1.1,Electrical ,,,,,,,,,
 3,1.2.1,Electrical Fixtures,,,,,,,,,
 4,1.5.1.1.2,BLDC Smart Ceiling Fan,,U,,5000,,,,,"IfcElectricAppliance, type=""BLDC_CFAN"""
-4,1.5.1.1.2,15W LED lights,,U,,600,,,,,"IfcElectricAppliance, type=""BLDC_CFAN"""
-4,1.5.1.1.2,6W Footlamps,,U,,450,,,,,"IfcElectricAppliance, type=""BLDC_CFAN"""
+4,1.5.1.1.2,15W LED lights,,U,,600,,,,,"IfcElectricAppliance, type=""LED15W"""
+4,1.5.1.1.2,LED Strip Lights,,m,,450,,,,,"IfcLightFixture, type=""LED Strip"""
 3,1.5.1.1.3,Solar Panel 500W,,U,,25000,,,,,"IfcSolarDevice, type=""1x2_500W_SPANEL"""
 3,1.5.1.1.4,Motor Pump 1.5HP,,U,,45000,,,,,"IfcPump, type=""1.5HP"""
 3,1.5.1.1.5,Conduits and Labor,,lumsum,,150000,,,150000,,
+3,1.2.1,Electric Appliances,,,,,,,,,
+4,1.5.1.1.2,Mixer Grinder,,U,,12000,,,,,"IfcElectricAppliance, type=""Standmixer"""
+4,1.5.1.1.2,Refrigerator,,U,,12000,,,,,"IfcElectricAppliance, type=""Refrigerator LG 655L 2Door"""
+4,1.5.1.1.2,Cooktop,,U,,90000,,,,,"IfcElectricAppliance, type=""FaberStove"""
+4,1.5.1.1.2,Microwave Oven,,U,,15000,,,,,"IfcElectricAppliance, type=""MV_OVEN"""
+4,1.5.1.1.2,Oven,,U,,12000,,,,,"IfcElectricAppliance, type=""Builtin Oven"""
+4,1.5.1.1.2,Electric Chimney,,U,,12000,,,,,"IfcElectricAppliance, type=""Faber 90cm W Electric Chimney"""
+4,1.5.1.1.2,Water Heater,,U,,15000,,,,,"IfcElectricAppliance, type=""Racold_Storage_15L"""
+,,,,,,,,,,,
+2,1.5.1.1.3,HVAC,,,,,,,,,
+3,1.5.1.1.2,AC Indoor Machine 9TR,,U,,71300,,,,,"IfcUnitaryEquipment, type=""9TR"""
+3,1.5.1.1.2,AC Indoor Machine 2TR,,U,,32700,,,,,"IfcUnitaryEquipment, type=""2TR"""
+3,1.5.1.1.2,AC Indoor Machine 1.5TR,,U,,32000,,,,,"IfcUnitaryEquipment, type=""1.5TR"""
+3,1.5.1.1.2,VRF top discharge,,U,,329600,,,,,"IfcUnitaryEquipment, type=""VRF10HP"""
+3,1.5.1.1.2,Accessories and Installation,,lumsum,,635990,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+1,1.1,Furnitures,,,,,,,,,
+2,1.2.1,Fixed Furniture,,,,,,,,,
+3,1.5.1.1.2,Kitchen Island and Cabinets,,m3,,35000,,,,,"2ZM40$ZAb70PRrzHW9LpJ8,297XdECV95zgrEUMPgoxvq,0r1oMxLo96H9rva9YbPCGB,14AWxbdbr1CP$zvvJ_cB19,2xTMk_x9f9Fg$66m5Mz6NH,1rzBAdF2XDYQCO3KH26Ul$,2WOkgMLY9DaQ5N36UmDPHK,22FL70C_91$9Siy4CzgYVV,0fdrhMOd5CYABI21svJpWT,0rkBbNDlLBse4ihW$AUWVP"
+3,1.5.1.1.2,Bedroom Wardrobes,,m3,,30000,,,,,"0HmnTzVhr80R2oHcssDlSP,2JwwUQmCv2Ae2QjMfamPsc,1V34mhiDv5wggbUM6jRsQC,1UWB9cDmT58eDlwbbkjp63,1EaqRQINj92O5_luxyduwz,0xsfNp7ez56h_anoL1l3n4,3GUKHejqz3093yN26DI$mE"
+,,,,,,,,,,,
+,,,,,,,,,,,
+3,1.3.2,Loose Furniture,,,,,,,,,
+4,1.3.2.1,"Bed Frame - King sized (LW-2030x1830mm) Custom wooden design with Headboard, complete with materials, finish, and labour.",,U,,75000,,,,,"IfcFurniture, type=""King bed"""
+4,1.3.2.2,"Bedside Table – (LWH-500x450x550mm) Custom wooden design with 2 Drawers, complete with materials, finish, and labour.",,U,,25000,,,,,"IfcFurniture, type=""Btable_0.7x0.5"""
+4,1.3.2.3,"Bed Frame –Queen sized (LW-1830x2030mm) Custom wooden design with Headboard, complete with materials, finish, and labour.",,U,,75000,,,,,"IfcFurniture, type=""Queen bed"""
+4,1.3.2.4,"Single Seat Sofa – 0.75x0.7 (DW) Custom Design with Upholstery, complete with materials, finish, and labour.",,U,,35000,,,,,"IfcFurniture, type=""1SeatSofa_0.75x0.7x0.9"""
+4,1.3.2.5,"Dining Table - (LWH-2400x1200x780mm) Custom wooden design, complete with materials, finish, and labour.",,U,,50000,,,,,"IfcFurniture, type=""DiningTable_2.4x1.2x0.78"""
+4,1.3.2.6,"Dining Chair - (LWH-2400x1200x780mm) Custom wooden design, complete with materials, finish, and labour.",,U,,25000,,,,,"IfcFurniture, type=""DiningChair_0.45x0.45x0.9"""
+4,1.3.2.7,"Breakfast Stool – (LWH-300x300x650mm) Custom wooden design, complete with materials, finish, and labour.",,U,,18000,,,,,"IfcFurniture, type=""Stool_0.3x0.3x0.65"""
+4,1.3.2.8,"3 Seat Sofa – 0.75x0.7 (DW) Custom Design with Upholstery, complete with materials, finish, and labour.",,U,,45000,,,,,"IfcFurniture, type=""3SeatSofa_2.1x0.9x0.9"""
+,,,,,,,,,,,
+,,,,,,,,,,,
+1,1.1,Landscape,,,,,,,,,
+2,1.2.1,Site Full Approx,,m2,,100,,,,PlotArea,"IfcGeographicElement, Name=""Site"""
+2,1.2.1,Gate,,U,,150000,,,,,"type=""DG_3x1.8_2PH_SW"""
+2,1.2.1,Compound Wall,,m3,,20000,,,,NetVolume,"IfcWall, location=""Site"""
+2,1.2.1,Interlock Tiles,,,,,,,,,
+3,1.2.3.3,Frontyard,,m2,,500,,,,NetArea,"IfcCovering, type=""Interlock"", location=FF"
+3,1.2.3.3,Ramp,,m2,,500,,,,TopArea,3NfQzW2p90kemh8IGcUxhf
+3,1.2.3.3,Back and SideYard,,m2,,500,,,,NetArea,"IfcCovering, type=""Interlock"", location=Site"
