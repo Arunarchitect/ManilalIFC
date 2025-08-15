@@ -1,8 +1,6 @@
 Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,Subtotal,Property,Query
 1,,With Fill,,,,,,,,,
 2,,Foundation,,,,,,,,,
-3,,Site Preperation,,,,,,,,,
-4,,"Earth Work Excavation - digging and  removing soil, sand, or rock from the ground and Temporary Shed and Toilet",,m3,,500,,,,UndisturbedVolume,"IfcEarthworksCut, location=""My Site"""
 3,,Retaining Wall ,,,,,,,,,
 4,,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,10000,,,,NetVolume,"IfcSlab, type=""PCC_1400W_100D"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
 4,,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,22000,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
@@ -10,12 +8,12 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 3,,"EarthworksFill and compacting, soil from outside",,m3,,2000,,,,CompactedVolume,"IfcEarthworksFill,""EPset_Status"".""Status"" = ""TEMPORARY"""
 2,,Retaining Wall ,,,,,,,,,
 3,,Retaining Wall Concrete,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
-4,,Plastering,,,,,,,,,
-5,,One side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
-5,,Other side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
-4,,Painting,,,,,,,,,
-5,,One side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
-5,,Other side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
+3,,Plastering,,,,,,,,,
+4,,One side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
+4,,Other side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
+3,,Painting,,,,,,,,,
+4,,One side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
+4,,Other side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""TEMPORARY"""
 2,,Floor,,,,,,,,,
 3,,PCC Floor,,m3,,10000,,,,NetVolume,"IfcSlab, location=FF,""EPset_Status"".""Status"" = ""NEW"""
 ,,,,,,,,,,,
@@ -23,8 +21,6 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 ,,,,,,,,,,,
 1,,Without Fill,,,,,,,,,
 2,,Foundation,,,,,,,,,
-3,,Site Preperation,,,,,,,,,
-4,,"Earth Work Excavation - digging and  removing soil, sand, or rock from the ground and Temporary Shed and Toilet",,m3,,500,,,,UndisturbedVolume,"IfcEarthworksCut, location=""My Site"""
 3,,Retaining Wall ,,,,,,,,,
 4,,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,10000,,,,NetVolume,"IfcSlab, type=""PCC_1400W_100D"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
 4,,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,22000,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
@@ -32,7 +28,8 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 2,,EarthworksFill,,,,,,,,,
 3,,"EarthworksFill and compacting, soil from outside",,m3,,2000,,,,CompactedVolume,"IfcEarthworksFill,""EPset_Status"".""Status"" = ""NEW"""
 2,,Walls,,,,,,,,,
-3,,Curtain Wall Brick,,m3,,10000,,,,NetVolume,"IfcWall, type=""Wall 230mm"", location=Footing"
+3,,Plinth Beam Concrete  for Walls ,,m3,,30000,,,,NetVolume,"IfcBeam, type=""230 x 300mm"", ""EPset_Status"".""Status"" = ""NEW"""
+3,,Brick work using concrete blocks.,,m3,,10000,,,,NetVolume,"IfcWall, type=""Wall 230mm"", location=Footing"
 3,,Plastering,,,,,,,,,
 4,,One side,,m2,,500,,,,NetSideArea,"IfcWall, type=""Wall 230mm"", location=Footing"
 4,,Other side,,m2,,500,,,,NetSideArea,"IfcWall, type=""Wall 230mm"", location=Footing"
@@ -41,11 +38,11 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,,Other side,,m2,,500,,,,NetSideArea,"IfcWall, type=""Wall 230mm"", location=Footing"
 2,,Retaining Wall ,,,,,,,,,
 3,,Retaining Wall Concrete,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
-4,,Plastering,,,,,,,,,
-5,,One side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
-5,,Other side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
-4,,Painting,,,,,,,,,
-5,,One side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
-5,,Other side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
+3,,Plastering,,,,,,,,,
+4,,One side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
+4,,Other side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
+3,,Painting,,,,,,,,,
+4,,One side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
+4,,Other side,,m2,,500,,,,NetSideArea,"IfcWall, type=""RCCWall_230mm"", location=Footing,""EPset_Status"".""Status"" = ""NEW"""
 2,,Floor,,,,,,,,,
 3,,RCC Floor,,m3,,25000,,,,NetVolume,"IfcSlab, location=FF,""EPset_Status"".""Status"" = ""NEW"""
