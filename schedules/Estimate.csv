@@ -30,6 +30,9 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 5,1.1.1.6.2,Brick Partition Wall – First Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
 4,1.1.1.6,Staircase,,,,,,,,,
 5,1.1.1.6.2,RCC Stair,,m3,,26500,,,,NetVolume,"IfcStairFlight,type=""ST-01""+IfcStairFlight,type=""ST-02"""
+4,1.2.2,"Plastering walls with mix ratio 1:4, 12mm thick one coat floated hard and trowelled smooth including cost and conveyance of all materials to site, labour charges for curing, watering, scaffolding etc. complete",,,,,,,,,
+5,1.2.2.1,Plastering – Ground and First Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
+5,1.2.2.2,Plastering – Ground and First Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
 3,1.1.1,Roof – fabricated using Steel trusses and overlaid with GI Roofing sheet,,m2,,3250,,,,NetArea,IfcRoof
 ,,,,,,,,,,,
 ,,,,,,,,,,,
@@ -56,9 +59,6 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.2.1.1,Painting – Ground and First Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
 4,1.2.1.2,Painting – Ground and First Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
 4,1.2.1.3,Painting – First Floor Slab Bottom,,m2,,500,,,,NetArea,04Jv$VtL1EsBUiQ15mYIZw
-3,1.2.2,"Plastering walls with mix ratio 1:4, 12mm thick one coat floated hard and trowelled smooth including cost and conveyance of all materials to site, labour charges for curing, watering, scaffolding etc. complete",,,,,,,,,
-4,1.2.2.1,Plastering – Ground and First Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
-4,1.2.2.2,Plastering – Ground and First Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
 3,1.2.3,"Floor finishing using tiles including cost of materials and labor. Material cost range
  upto Rs.60/Sq.ft",,,,,,,,,
 4,1.2.3.1,Floor Tiles- Ground Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=GF , type=""Tile 5cm"""
@@ -69,7 +69,7 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.2.3.1,First Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Bathtile"", location=FF"
 3,1.2.4,"False Ceiling – Providing and fixing 12.5 mm thick gypsum board false ceiling with necessary framing, finishing, and labour charges complete.",,,,,,,,,
 4,1.2.3.3,Ground and First Floor,,m2,,1080,,,,NetArea,"IfcCovering, type=""50mm gypsum"""
-3,1.2.4,Solid Surface top in Kitchen,,m2,,,,,,NetArea,"IfcCovering, type=""12mm SolidSurfaceTop"""
+3,1.2.4,Solid Surface top in Kitchen,,m2,,4000,,,,NetArea,"IfcCovering, type=""12mm SolidSurfaceTop"""
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
@@ -105,8 +105,8 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.5.1.1.2,LED Strip Lights,,m,,450,,,,,"IfcLightFixture, type=""LED Strip"""
 3,1.5.1.1.3,Solar Panel 500W,,U,,25000,,,,,"IfcSolarDevice, type=""1x2_500W_SPANEL"""
 3,1.5.1.1.4,Motor Pump 1.5HP,,U,,45000,,,,,"IfcPump, type=""1.5HP"""
+3,1.5.1.1.5,25 kVA DIesel Generator,,U,,350000,,,,,IfcElectricGenerator
 3,1.5.1.1.5,Conduits and Labor,,lumsum,,150000,,,150000,,
-,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
