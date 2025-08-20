@@ -4,161 +4,161 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 3,1.1.1,Foundation,,,,,,,,,
 4,1.1.1.1,Site Preperation,,,,,,,,,
 5,1.1.1.1.1,"Earth Work Excavation - digging and  removing soil, sand, or rock from the ground and Temporary Shed and Toilet",,m3,,500,,,,UndisturbedVolume,"IfcEarthworksCut, location=""My Site"""
-4,1.1.1.1,Retaining Wall ,,,,,,,,,
-5,1.1.1.1.2,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,10000,,,,NetVolume,"IfcSlab, type=""PCC_1400W_100D"", ""EPset_Status"".""Status"" = ""EXISTING"" + IfcSlab, type=""PCC_1400W_100D"", ""EPset_Status"".""Status"" = ""NEW"""
-5,1.1.1.1.3,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,22000,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"", ""EPset_Status"".""Status"" = ""NEW"" + IfcSlab, type=""RCC_1400W_350D"", ""EPset_Status"".""Status"" = ""EXISTING"""
-4,1.1.1.1,Columns,,,,,,,,,
-5,1.1.1.1.1,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,22000,,,,NetVolume,"IfcSlab, type=""PCC_0.12D"", ""EPset_Status"".""Status"" = ""NEW"" + IfcSlab, type=""PCC_0.1D"", ""EPset_Status"".""Status"" = ""NEW"""
-5,1.1.1.1.1,RCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,22000,,,,NetVolume,"IfcFooting,""EPset_Status"".""Status"" = ""NEW"""
-4,1.1.1.1,EarthworksFill,,,,,,,,,
-5,1.1.1.1.1,"EarthworksFill and compacting, soil from outside",,m3,,2000,,,,CompactedVolume,"IfcEarthworksFill, ""EPset_Status"".""Status"" = ""NEW"""
-3,1.1.1,SuperStructure,,,,,,,,,
-4,1.1.1.1,Columns,,,,,,,,,
-5,1.1.1.4.1,GF- Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,32000,,,,NetVolume,"IfcColumn, location=Footing"
-5,1.1.1.4.1,FF- Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,32000,,,,NetVolume,"IfcColumn,location=FF"
+4,1.1.1.2,Retaining Wall ,,,,,,,,,
+5,1.1.1.2.1,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,10000,,,,NetVolume,"IfcSlab, type=""PCC_1400W_100D"", ""EPset_Status"".""Status"" = ""EXISTING"" + IfcSlab, type=""PCC_1400W_100D"", ""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.2.2,RCC footing - Reinforced Cement Concrete  in M 20(1:1.5:3)  mix ratio,,m3,,22000,,,,NetVolume,"IfcSlab, type=""RCC_1400W_350D"", ""EPset_Status"".""Status"" = ""NEW"" + IfcSlab, type=""RCC_1400W_350D"", ""EPset_Status"".""Status"" = ""EXISTING"""
+4,1.1.1.3,Columns,,,,,,,,,
+5,1.1.1.3.1,PCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,22000,,,,NetVolume,"IfcSlab, type=""PCC_0.12D"", ""EPset_Status"".""Status"" = ""NEW"" + IfcSlab, type=""PCC_0.1D"", ""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.3.2,RCC Footing – Plain Cement Concrete of  M 7.5(1:4:8) mix using 40 mm graded stone aggregate,,m3,,22000,,,,NetVolume,"IfcFooting,""EPset_Status"".""Status"" = ""NEW"""
+4,1.1.1.4,EarthworksFill,,,,,,,,,
+5,1.1.1.4.1,"EarthworksFill and compacting, soil from outside",,m3,,2000,,,,CompactedVolume,"IfcEarthworksFill, ""EPset_Status"".""Status"" = ""NEW"""
+3,1.1.2,SuperStructure,,,,,,,,,
+4,1.1.1.5,Columns,,,,,,,,,
+5,1.1.1.5.1,GF- Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,32000,,,,NetVolume,"IfcColumn, location=Footing"
+5,1.1.1.5.2,FF- Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,32000,,,,NetVolume,"IfcColumn,location=FF"
 ,,,,,,,,,,,
-4,1.1.1.1,Retaining Wall,,,,,,,,,
-5,1.1.1.4.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""NEW""+IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""EXISTING"""
-4,1.1.1.5,Floors,,,,,,,,,
-5,1.1.1.6.2,PCC First Floor,,m3,,10000,,,,NetVolume,"IfcSlab,location=GF"
-5,1.1.1.5.1,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m3,,20000,,,,NetVolume,"IfcSlab,type=""RCC_0.1D"", location=FF + IfcSlab, type=""FloorPCC"",location=FF, ""EPset_Status"".""Status"" = ""NEW"""
-5,1.1.1.5.2,RCC Floor Slab – Second Floor – Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,20000,,,,NetVolume,"IfcSlab, location=SF"
-4,1.1.1.6,Beams,,,,,,,,,
-5,1.1.1.6.2,Structural Beams – Ground Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=Footing + IfcBeam, location=FF +IfcBeam, location=SF"
-4,1.1.1.6,Walls,,,,,,,,,
-5,1.1.1.6.2,Brick Partition Wall – Ground Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=GF"
-5,1.1.1.6.2,Brick Partition Wall – First Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
-4,1.1.1.6,Staircase,,,,,,,,,
-5,1.1.1.6.2,RCC Stair,,m3,,26500,,,,NetVolume,"IfcStairFlight,type=""ST-01""+IfcStairFlight,type=""ST-02"""
-4,1.2.2,"Plastering walls with mix ratio 1:4, 12mm thick one coat floated hard and trowelled smooth including cost and conveyance of all materials to site, labour charges for curing, watering, scaffolding etc. complete",,,,,,,,,
-5,1.2.2.1,Plastering – Ground and First Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
-5,1.2.2.2,Plastering – Ground and First Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
-3,1.1.1,Roof – fabricated using Steel trusses and overlaid with GI Roofing sheet,,m2,,3250,,,,NetArea,IfcRoof
+4,1.1.1.6,Retaining Wall,,,,,,,,,
+5,1.1.1.6.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""NEW""+IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""EXISTING"""
+4,1.1.1.7,Floors,,,,,,,,,
+5,1.1.1.7.1,PCC First Floor,,m3,,10000,,,,NetVolume,"IfcSlab,location=GF"
+5,1.1.1.7.2,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m3,,20000,,,,NetVolume,"IfcSlab,type=""RCC_0.1D"", location=FF + IfcSlab, type=""FloorPCC"",location=FF, ""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.7.3,RCC Floor Slab – Second Floor – Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,20000,,,,NetVolume,"IfcSlab, location=SF"
+4,1.1.1.7,Beams,,,,,,,,,
+5,1.1.1.6.2,Structural Beams – Ground Floor and First Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=Footing + IfcBeam, location=FF +IfcBeam, location=SF"
+4,1.1.1.8,Walls,,,,,,,,,
+5,1.1.1.8.1,Brick Partition Wall – Ground Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=GF"
+5,1.1.1.8.2,Brick Partition Wall – First Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
+4,1.1.1.9,Staircase,,,,,,,,,
+5,1.1.1.9.1,RCC Stair,,m3,,26500,,,,NetVolume,"IfcStairFlight,type=""ST-01""+IfcStairFlight,type=""ST-02"""
+4,1.1.2.0,"Plastering walls with mix ratio 1:4, 12mm thick one coat floated hard and trowelled smooth including cost and conveyance of all materials to site, labour charges for curing, watering, scaffolding etc. complete",,,,,,,,,
+5,1.1.2.0.1,Plastering – Ground and First Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
+5,1.1.2.0.2,Plastering – Ground and First Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
+3,1.1.3,Roof – fabricated using Steel trusses and overlaid with GI Roofing sheet,,m2,,3250,,,,NetArea,IfcRoof
 ,,,,,,,,,,,
 ,,,,,,,,,,,
-2,1.1,Joineries,,,,,,,,,
-3,1.1.1,Doors,,,,,,,,,
-4,1.1.1.1,Ground Floor,,,,,,,,,
-5,1.1.1.1.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Left"" "
-5,1.1.1.1.1,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
-5,1.1.1.1.1,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
-5,1.1.1.1.1,0.8m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,18000,,,,,"IfcDoor, location=GF, type=""Door 800x2100mm Right"" "
-3,1.1.1,First Floor,,,,,,,,,
-4,1.1.1.1,FRP Doors,,,,,,,,,
-5,1.1.1.1.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=FF, type=""Door 1000x2100mm Left"" "
-5,1.1.1.1.1,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=FF, type=""Door 1000x2100mm Right"" "
-5,1.1.1.1.1,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=FF, type=""Door 1000x2100mm Right"" "
-5,1.1.1.1.1,0.9m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,18000,,,,,"IfcDoor, location=FF, type=""Door 900x2100mm Right"" "
+2,1.2,Joineries,,,,,,,,,
+3,1.1.4,Doors,,,,,,,,,
+4,1.1.2.1,Ground Floor,,,,,,,,,
+5,1.1.2.1.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Left"" "
+5,1.1.2.1.2,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
+5,1.1.2.1.3,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=GF, type=""Door 1000x2100mm Right"" "
+5,1.1.2.1.4,0.8m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,18000,,,,,"IfcDoor, location=GF, type=""Door 800x2100mm Right"" "
+3,1.1.5,First Floor,,,,,,,,,
+4,1.1.2.2,FRP Doors,,,,,,,,,
+5,1.1.2.2.1,1m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=FF, type=""Door 1000x2100mm Left"" "
+5,1.1.2.2.2,1cm wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=FF, type=""Door 1000x2100mm Right"" "
+5,1.1.2.2.3,0.9m wide and 2.1m high Single Left Swing Door Frame and Door made using FRP.,,U,,20000,,,,,"IfcDoor, location=FF, type=""Door 1000x2100mm Right"" "
+5,1.1.2.2.4,0.9m wide and 2.1m high Single Right Swing Door Frame and Door made using FRP.,,U,,18000,,,,,"IfcDoor, location=FF, type=""Door 900x2100mm Right"" "
 ,,,,,,,,,,,
-3,1.1.1,Glass Doors and Windows,,lumsum,,4646219,,,4646219,,
-3,1.1.1,Glass Handrails,,m,,2000,,,,,"IfcRailing, type=""Glassrail_1m"""
-3,1.1.1,Metal Cladding (need correct pricing as this is not commonly used),,m,,1300,,,,Length,"IfcBeam, type=""70cm"""
+3,1.1.6,Glass Doors and Windows,,lumsum,,4646219,,,4646219,,
+3,1.1.7,Glass Handrails,,m,,2000,,,,,"IfcRailing, type=""Glassrail_1m"""
+3,1.1.8,Metal Cladding (need correct pricing as this is not commonly used),,m,,1300,,,,Length,"IfcBeam, type=""70cm"""
 ,,,,,,,,,,,
-2,1.2,Finishes,,,,,,,,,
-3,1.2.1,"Painting of walls including two coats of wall putty, two coats of primer, and two coats of paint, complete in all respects.",,,,,,,,,
-4,1.2.1.1,Painting – Ground and First Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
-4,1.2.1.2,Painting – Ground and First Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
-4,1.2.1.3,Painting – First Floor Slab Bottom,,m2,,500,,,,NetArea,04Jv$VtL1EsBUiQ15mYIZw
-3,1.2.3,"Floor finishing using tiles including cost of materials and labor. Material cost range
+2,1.3,Finishes,,,,,,,,,
+3,1.1.9,"Painting of walls including two coats of wall putty, two coats of primer, and two coats of paint, complete in all respects.",,,,,,,,,
+4,1.2.2.3,Painting – Ground and First Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
+4,1.2.2.4,Painting – Ground and First Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
+4,1.2.2.5,Painting – First Floor Slab Bottom,,m2,,500,,,,NetArea,04Jv$VtL1EsBUiQ15mYIZw
+3,1.2.0,"Floor finishing using tiles including cost of materials and labor. Material cost range
  upto Rs.60/Sq.ft",,,,,,,,,
-4,1.2.3.1,Floor Tiles- Ground Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=GF , type=""Tile 5cm"""
-4,1.2.3.1,Floor Tile Skirting- Ground Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=GF , type=""Tile_skirting"""
-4,1.2.3.2,Floor Tiles- First Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=FF , type=""Tile 5cm"""
-3,1.2.3,Wall Tiles,,,,,,,,,
-4,1.2.3.1,Ground Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Bathtile"", location=GF"
-4,1.2.3.1,First Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Bathtile"", location=FF"
-3,1.2.4,"False Ceiling – Providing and fixing 12.5 mm thick gypsum board false ceiling with necessary framing, finishing, and labour charges complete.",,,,,,,,,
-4,1.2.3.3,Ground and First Floor,,m2,,1080,,,,NetArea,"IfcCovering, type=""50mm gypsum"""
-3,1.2.4,Solid Surface top in Kitchen,,m2,,4000,,,,NetArea,"IfcCovering, type=""12mm SolidSurfaceTop"""
+4,1.2.2.6,Floor Tiles- Ground Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=GF , type=""Tile 5cm"""
+4,1.2.2.7,Floor Tile Skirting- Ground Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=GF , type=""Tile_skirting"""
+4,1.2.2.8,Floor Tiles- First Floor,,m2,,1350,,,,NetArea,"IfcCovering, location=FF , type=""Tile 5cm"""
+3,1.2.1,Wall Tiles,,,,,,,,,
+4,1.2.2.9,Ground Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Bathtile"", location=GF"
+4,1.2.3.0,First Floor bathroom Tiles,,m2,,1350,,,,NetArea,"IfcCovering,type=""Bathtile"", location=FF"
+3,1.2.2,"False Ceiling – Providing and fixing 12.5 mm thick gypsum board false ceiling with necessary framing, finishing, and labour charges complete.",,,,,,,,,
+4,1.2.3.1,Ground and First Floor,,m2,,1080,,,,NetArea,"IfcCovering, type=""50mm gypsum"""
+3,1.2.3,Solid Surface top in Kitchen,,m2,,4000,,,,NetArea,"IfcCovering, type=""12mm SolidSurfaceTop"""
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
-2,1.2,Water Supply and Sanitation,,,,,,,,,
-3,1.2.1,Tube Well,,,,,,,,,
-4,1.2.3.3,"Tube Well hole drill; For upto 300m its 450rs per feet and after that, the extra pipe length is calculated with 40rs extra per feet",,m,,1476.38,,,,Length,IfcBorehole
+2,1.4,Water Supply and Sanitation,,,,,,,,,
+3,1.2.4,Tube Well,,,,,,,,,
+4,1.2.3.2,"Tube Well hole drill; For upto 300m its 450rs per feet and after that, the extra pipe length is calculated with 40rs extra per feet",,m,,1476.38,,,,Length,IfcBorehole
 4,1.2.3.3,Tube Well Pipe,,m,,574.14,,,,Length,"IfcPipeSegment, type=""4inch Borewell"""
-4,1.2.3.3,Extra Pipe,,m,,131.23,,,,Length,"IfcPipeSegment, type=""4inch Borewell extra pipe"""
-4,1.2.3.3,Water for Drilling (unit in Loads),6,U,,250,,,,,
-3,1.2.1,Sanitary Fittings,,,,,,,,,
-4,1.2.3.3,Double Bowl Sink,,U,,15000,,,,,"type=""FRANKE_2BOWL_SINK_1.2x.46x.21"""
-4,1.2.3.3,Shower,,U,,6000,,,,,"type=""OH_Shower"""
-4,1.2.3.3,Wash Basin,,U,,16000,,,,,"type=""Wash_0.6x0.55"""
-4,1.2.3.3,Water Closet,,U,,16000,,,,,"type=""WC"""
-4,1.8.2,Shower Cubicle ,,U,,35000,,,,,"IfcSanitaryTerminal, type=""Shower 90 x170 Left Entry"""
-4,1.8.2,Shower Cubicle Corner,,U,,30000,,,,,"IfcSanitaryTerminal, type=""Corner Shower 90"""
+4,1.2.3.4,Extra Pipe,,m,,131.23,,,,Length,"IfcPipeSegment, type=""4inch Borewell extra pipe"""
+4,1.2.3.5,Water for Drilling (unit in Loads),6,U,,250,,,,,
+3,1.2.5,Sanitary Fittings,,,,,,,,,
+4,1.2.3.6,Double Bowl Sink,,U,,15000,,,,,"type=""FRANKE_2BOWL_SINK_1.2x.46x.21"""
+4,1.2.3.7,Shower,,U,,6000,,,,,"type=""OH_Shower"""
+4,1.2.3.8,Wash Basin,,U,,16000,,,,,"type=""Wash_0.6x0.55"""
+4,1.2.3.9,Water Closet,,U,,16000,,,,,"type=""WC"""
+4,1.2.4.0,Shower Cubicle ,,U,,35000,,,,,"IfcSanitaryTerminal, type=""Shower 90 x170 Left Entry"""
+4,1.2.4.1,Shower Cubicle Corner,,U,,30000,,,,,"IfcSanitaryTerminal, type=""Corner Shower 90"""
 ,,,,,,,,,,,
-3,1.8.2,Tanks,,m,,,,,,,
-4,1.8.2.1,Water Tank 1000L,,U,,18000,,,,,"IfcTank, type=""WaterTank_1000L"""
-4,1.8.2.2,Septic Tank – Cylindrical for 30 Flushes,,U,,18000,,,,,"IfcTank, type=""CYL_STANK_30FL"""
-3,1.8.2,Inspection Chambers,,m,,,,,,,
-4,1.8.2.1,1.5ft Fibre Chamber with Lid for Water Closet and Septic tank covers,,U,,18000,,,,,"IfcDistributionChamberElement, type=""1.5ft_WCS"""
-4,1.8.2.1,"1ft Fibre Chamber with Lid for Kitchen, WasteWater and Rain Water",,U,,18000,,,,,"IfcDistributionChamberElement, type=""1ft_WKR"""
-3,1.8.3,Soakpit,,U,,35000,,,,,"IfcWasteTerminal, type=""leechpit"""
-3,1.8.,Pipes – Material and Labor,,lumsum,,180000,,,180000,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-2,1.1,Electrical ,,,,,,,,,
-3,1.2.1,Electrical Fixtures,,,,,,,,,
-4,1.5.1.1.2,BLDC Smart Ceiling Fan,,U,,5000,,,,,"IfcElectricAppliance, type=""BLDC_CFAN"""
-4,1.5.1.1.2,15W LED lights,,U,,600,,,,,"IfcElectricAppliance, type=""LED15W"""
-4,1.5.1.1.2,LED Strip Lights,,m,,450,,,,,"IfcLightFixture, type=""LED Strip"""
-3,1.5.1.1.3,Solar Panel 500W,,U,,25000,,,,,"IfcSolarDevice, type=""1x2_500W_SPANEL"""
-3,1.5.1.1.4,Motor Pump 1.5HP,,U,,45000,,,,,"IfcPump, type=""1.5HP"""
-3,1.5.1.1.5,25 kVA DIesel Generator,,U,,350000,,,,,IfcElectricGenerator
-3,1.5.1.1.5,Conduits and Labor,,lumsum,,150000,,,150000,,
+3,1.2.6,Tanks,,m,,,,,,,
+4,1.2.4.2,Water Tank 1000L,,U,,18000,,,,,"IfcTank, type=""WaterTank_1000L"""
+4,1.2.4.3,Septic Tank – Cylindrical for 30 Flushes,,U,,18000,,,,,"IfcTank, type=""CYL_STANK_30FL"""
+3,1.2.7,Inspection Chambers,,m,,,,,,,
+4,1.2.4.4,1.5ft Fibre Chamber with Lid for Water Closet and Septic tank covers,,U,,18000,,,,,"IfcDistributionChamberElement, type=""1.5ft_WCS"""
+4,1.2.4.5,"1ft Fibre Chamber with Lid for Kitchen, WasteWater and Rain Water",,U,,18000,,,,,"IfcDistributionChamberElement, type=""1ft_WKR"""
+3,1.2.8,Soakpit,,U,,35000,,,,,"IfcWasteTerminal, type=""leechpit"""
+3,1.2.9,Pipes – Material and Labor,,lumsum,,180000,,,180000,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
+,,,,,,,,,,,
+2,1.5,Electrical ,,,,,,,,,
+3,1.3.0,Electrical Fixtures,,,,,,,,,
+4,1.2.4.6,BLDC Smart Ceiling Fan,,U,,5000,,,,,"IfcElectricAppliance, type=""BLDC_CFAN"""
+4,1.2.4.7,15W LED lights,,U,,600,,,,,"IfcElectricAppliance, type=""LED15W"""
+4,1.2.4.8,LED Strip Lights,,m,,450,,,,,"IfcLightFixture, type=""LED Strip"""
+3,1.3.0,Solar Panel 500W,,U,,25000,,,,,"IfcSolarDevice, type=""1x2_500W_SPANEL"""
+3,1.3.1,Motor Pump 1.5HP,,U,,45000,,,,,"IfcPump, type=""1.5HP"""
+3,1.3.2,25 kVA DIesel Generator,,U,,350000,,,,,IfcElectricGenerator
+3,1.3.3,Conduits and Labor,,lumsum,,150000,,,150000,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
-2,1.5.1.1.3,HVAC,,,,,,,,,
-3,1.5.1.1.2,AC Indoor Machine 9TR,,U,,71300,,,,,"IfcUnitaryEquipment, type=""9TR"""
-3,1.5.1.1.2,AC Indoor Machine 2TR,,U,,32700,,,,,"IfcUnitaryEquipment, type=""2TR"""
-3,1.5.1.1.2,AC Indoor Machine 1.5TR,,U,,32000,,,,,"IfcUnitaryEquipment, type=""1.5TR"""
-3,1.5.1.1.2,VRF top discharge,,U,,329600,,,,,"IfcUnitaryEquipment, type=""VRF10HP"""
-3,1.5.1.1.2,Accessories and Installation,,lumsum,,635990,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+2,1.6,HVAC,,,,,,,,,
+3,1.3.4,AC Indoor Machine 9TR,,U,,71300,,,,,"IfcUnitaryEquipment, type=""9TR"""
+3,1.3.5,AC Indoor Machine 2TR,,U,,32700,,,,,"IfcUnitaryEquipment, type=""2TR"""
+3,1.3.6,AC Indoor Machine 1.5TR,,U,,32000,,,,,"IfcUnitaryEquipment, type=""1.5TR"""
+3,1.3.7,VRF top discharge,,U,,329600,,,,,"IfcUnitaryEquipment, type=""VRF10HP"""
+3,1.3.8,Accessories and Installation,,lumsum,,635990,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 1,1.1,Furnitures and Appliances,,,,,,,,,
-2,1.2.1,Fixed Furniture,,,,,,,,,
-3,1.5.1.1.2,Kitchen Island and Cabinets,,m3,,35000,,,,,"2ZM40$ZAb70PRrzHW9LpJ8,297XdECV95zgrEUMPgoxvq,0r1oMxLo96H9rva9YbPCGB,14AWxbdbr1CP$zvvJ_cB19,2xTMk_x9f9Fg$66m5Mz6NH,1rzBAdF2XDYQCO3KH26Ul$,2WOkgMLY9DaQ5N36UmDPHK,22FL70C_91$9Siy4CzgYVV,0fdrhMOd5CYABI21svJpWT,0rkBbNDlLBse4ihW$AUWVP"
-3,1.5.1.1.2,Bedroom Wardrobes,,m3,,30000,,,,,"0HmnTzVhr80R2oHcssDlSP,2JwwUQmCv2Ae2QjMfamPsc,1V34mhiDv5wggbUM6jRsQC,1UWB9cDmT58eDlwbbkjp63,1EaqRQINj92O5_luxyduwz,0xsfNp7ez56h_anoL1l3n4,3GUKHejqz3093yN26DI$mE"
+2,1.7,Fixed Furniture,,,,,,,,,
+3,1.3.9,Kitchen Island and Cabinets,,m3,,35000,,,,,"2ZM40$ZAb70PRrzHW9LpJ8,297XdECV95zgrEUMPgoxvq,0r1oMxLo96H9rva9YbPCGB,14AWxbdbr1CP$zvvJ_cB19,2xTMk_x9f9Fg$66m5Mz6NH,1rzBAdF2XDYQCO3KH26Ul$,2WOkgMLY9DaQ5N36UmDPHK,22FL70C_91$9Siy4CzgYVV,0fdrhMOd5CYABI21svJpWT,0rkBbNDlLBse4ihW$AUWVP"
+3,1.4.0,Bedroom Wardrobes,,m3,,30000,,,,,"0HmnTzVhr80R2oHcssDlSP,2JwwUQmCv2Ae2QjMfamPsc,1V34mhiDv5wggbUM6jRsQC,1UWB9cDmT58eDlwbbkjp63,1EaqRQINj92O5_luxyduwz,0xsfNp7ez56h_anoL1l3n4,3GUKHejqz3093yN26DI$mE"
 ,,,,,,,,,,,
 ,,,,,,,,,,,
-2,1.3.2,Loose Furniture,,,,,,,,,
-3,1.3.2.1,"Bed Frame - King sized (LW-2030x1830mm) Custom wooden design with Headboard, complete with materials, finish, and labour.",,U,,75000,,,,,"IfcFurniture, type=""King bed"""
-3,1.3.2.2,"Bedside Table – (LWH-500x450x550mm) Custom wooden design with 2 Drawers, complete with materials, finish, and labour.",,U,,25000,,,,,"IfcFurniture, type=""Btable_0.7x0.5"""
-3,1.3.2.3,"Bed Frame –Queen sized (LW-1830x2030mm) Custom wooden design with Headboard, complete with materials, finish, and labour.",,U,,75000,,,,,"IfcFurniture, type=""Queen bed"""
-3,1.3.2.4,"Single Seat Sofa – 0.75x0.7 (DW) Custom Design with Upholstery, complete with materials, finish, and labour.",,U,,35000,,,,,"IfcFurniture, type=""1SeatSofa_0.75x0.7x0.9"""
-3,1.3.2.5,"Dining Table - (LWH-2400x1200x780mm) Custom wooden design, complete with materials, finish, and labour.",,U,,50000,,,,,"IfcFurniture, type=""DiningTable_2.4x1.2x0.78"""
-3,1.3.2.6,"Dining Chair - (LWH-2400x1200x780mm) Custom wooden design, complete with materials, finish, and labour.",,U,,25000,,,,,"IfcFurniture, type=""DiningChair_0.45x0.45x0.9"""
-3,1.3.2.7,"Breakfast Stool – (LWH-300x300x650mm) Custom wooden design, complete with materials, finish, and labour.",,U,,18000,,,,,"IfcFurniture, type=""Stool_0.3x0.3x0.65"""
-3,1.3.2.8,"3 Seat Sofa – 0.75x0.7 (DW) Custom Design with Upholstery, complete with materials, finish, and labour.",,U,,45000,,,,,"IfcFurniture, type=""3SeatSofa_2.1x0.9x0.9"""
+2,1.8,Loose Furniture,,,,,,,,,
+3,1.4.1,"Bed Frame - King sized (LW-2030x1830mm) Custom wooden design with Headboard, complete with materials, finish, and labour.",,U,,75000,,,,,"IfcFurniture, type=""King bed"""
+3,1.4.2,"Bedside Table – (LWH-500x450x550mm) Custom wooden design with 2 Drawers, complete with materials, finish, and labour.",,U,,25000,,,,,"IfcFurniture, type=""Btable_0.7x0.5"""
+3,1.4.3,"Bed Frame –Queen sized (LW-1830x2030mm) Custom wooden design with Headboard, complete with materials, finish, and labour.",,U,,75000,,,,,"IfcFurniture, type=""Queen bed"""
+3,1.4.4,"Single Seat Sofa – 0.75x0.7 (DW) Custom Design with Upholstery, complete with materials, finish, and labour.",,U,,35000,,,,,"IfcFurniture, type=""1SeatSofa_0.75x0.7x0.9"""
+3,1.4.5,"Dining Table - (LWH-2400x1200x780mm) Custom wooden design, complete with materials, finish, and labour.",,U,,50000,,,,,"IfcFurniture, type=""DiningTable_2.4x1.2x0.78"""
+3,1.4.6,"Dining Chair - (LWH-2400x1200x780mm) Custom wooden design, complete with materials, finish, and labour.",,U,,25000,,,,,"IfcFurniture, type=""DiningChair_0.45x0.45x0.9"""
+3,1.4.7,"Breakfast Stool – (LWH-300x300x650mm) Custom wooden design, complete with materials, finish, and labour.",,U,,18000,,,,,"IfcFurniture, type=""Stool_0.3x0.3x0.65"""
+3,1.4.8,"3 Seat Sofa – 0.75x0.7 (DW) Custom Design with Upholstery, complete with materials, finish, and labour.",,U,,45000,,,,,"IfcFurniture, type=""3SeatSofa_2.1x0.9x0.9"""
 ,,,,,,,,,,,
-2,1.2.1,Electric Appliances,,,,,,,,,
-3,1.5.1.1.2,Mixer Grinder,,U,,12000,,,,,"IfcElectricAppliance, type=""Standmixer"""
-3,1.5.1.1.2,Refrigerator,,U,,100000,,,,,"IfcElectricAppliance, type=""Refrigerator LG 655L 2Door"""
-3,1.5.1.1.2,Cooktop,,U,,40000,,,,,"IfcElectricAppliance, type=""FaberStove"""
-3,1.5.1.1.2,Microwave Oven,,U,,15000,,,,,"IfcElectricAppliance, type=""MV_OVEN"""
-3,1.5.1.1.2,Oven,,U,,75000,,,,,"IfcElectricAppliance, type=""Builtin Oven"""
-3,1.5.1.1.2,Electric Chimney,,U,,35000,,,,,"IfcElectricAppliance, type=""Faber 90cm W Electric Chimney"""
-3,1.5.1.1.2,Water Heater,,U,,15000,,,,,"IfcElectricAppliance, type=""Racold_Storage_15L"""
+2,1.9,Electric Appliances,,,,,,,,,
+3,1.4.9,Mixer Grinder,,U,,12000,,,,,"IfcElectricAppliance, type=""Standmixer"""
+3,1.5.0,Refrigerator,,U,,100000,,,,,"IfcElectricAppliance, type=""Refrigerator LG 655L 2Door"""
+3,1.5.1,Cooktop,,U,,40000,,,,,"IfcElectricAppliance, type=""FaberStove"""
+3,1.5.2,Microwave Oven,,U,,15000,,,,,"IfcElectricAppliance, type=""MV_OVEN"""
+3,1.5.3,Oven,,U,,75000,,,,,"IfcElectricAppliance, type=""Builtin Oven"""
+3,1.5.4,Electric Chimney,,U,,35000,,,,,"IfcElectricAppliance, type=""Faber 90cm W Electric Chimney"""
+3,1.5.5,Water Heater,,U,,15000,,,,,"IfcElectricAppliance, type=""Racold_Storage_15L"""
 ,,,,,,,,,,,
 ,,,,,,,,,,,
-1,1.1,Landscape,,,,,,,,,
-2,1.2.1,Site Full Approx,,m2,,100,,,,PlotArea,"IfcGeographicElement, Name=""Site"""
-2,1.2.1,Gate,,U,,150000,,,,,"type=""DG_3x1.8_2PH_SW"""
-2,1.2.1,Compound Wall,,m3,,20000,,,,NetVolume,"IfcWall, location=""Site"""
-2,1.2.1,Interlock Tiles,,,,,,,,,
-3,1.2.3.3,Frontyard,,m2,,500,,,,NetArea,"IfcCovering, type=""Interlock"", location=FF"
-3,1.2.3.3,Ramp,,m2,,500,,,,TopArea,3NfQzW2p90kemh8IGcUxhf
-3,1.2.3.3,Back and SideYard,,m2,,500,,,,NetArea,"IfcCovering, type=""Interlock"", location=Site"
+1,1.2,Landscape,,,,,,,,,
+2,1.2.0,Site Full Approx,,m2,,100,,,,PlotArea,"IfcGeographicElement, Name=""Site"""
+2,1.2.1,Gate,,lumsum,,55000,,,,,
+2,1.2.2,Compound Wall,,m,,7000,,,,Length,"IfcWall, location=""Site"""
+2,1.2.3,Interlock Tiles,,,,,,,,,
+3,1.5.6,Frontyard,,m2,,500,,,,NetArea,"IfcCovering, type=""Interlock"", location=FF"
+3,1.5.7,Ramp,,m2,,500,,,,TopArea,3NfQzW2p90kemh8IGcUxhf
+3,1.5.8,Back and SideYard,,m2,,500,,,,NetArea,"IfcCovering, type=""Interlock"", location=Site"
 ,,,,,,,,,,,
-1,1.1,Mechanical,,,,,,,,,
-2,1.2.1,Elevator,,U,,1000000,,,,,IfcTransportElement
+1,1.3,Mechanical,,,,,,,,,
+2,1.2.4,Elevator,,U,,1000000,,,,,IfcTransportElement
