@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="root"
+   version="1.1"
+   width="1189.0mm"
+   height="841.0mm"
+   viewBox="0 0 1189.0 841.0"
+   sodipodi:docname="A08 - Electrical Drawings2.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.20005081"
+     inkscape:cx="1677.0739"
+     inkscape:cy="547.36094"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="root" />
+  <g
+     data-type="titleblock"
+     id="g1">
+    <image
+       xlink:href="titleblocks/A0.svg"
+       x="0"
+       y="0"
+       width="1189.0"
+       height="841.0"
+       id="image1" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="589599"
+     data-drawing="2Oxu8P6110H9drteGuLqE6"
+     id="g3"
+     transform="translate(9.2580645,-2.6451613)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CElectrical%20TVlounge.svg"
+       x="30"
+       y="30"
+       width="300.53244"
+       height="350"
+       id="image2" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="30"
+       y="385"
+       width="50.222462"
+       height="10"
+       id="image3" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="601129"
+     data-drawing="0SGVFS2k531xXQUETQVwjf"
+     id="g5"
+     transform="translate(61.5,595.16129)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CElectrical%20Bed%201%20Dress.svg"
+       x="340.53244"
+       y="30"
+       width="300"
+       height="174.91525"
+       id="image4" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="340.53244"
+       y="209.91525"
+       width="50.222462"
+       height="10"
+       id="image5" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="601130"
+     data-drawing="1UPPN9M2b5pRDi7s$rn8N9"
+     id="g7"
+     transform="translate(-252.66797,386.82161)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CElectrical%20Bed1%20Toilet.svg"
+       x="650.53241"
+       y="30"
+       width="300"
+       height="174.91525"
+       id="image6" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="650.53241"
+       y="209.91525"
+       width="50.222462"
+       height="10"
+       id="image7" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="601131"
+     data-drawing="2TT6GkV9vCOP6RUqkJlamB"
+     id="g9"
+     transform="translate(-22.456343,137.45439)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CElectrical%20Kitchen%20Utility%20East.svg"
+       x="820.53241"
+       y="-110"
+       width="350"
+       height="350"
+       id="image8" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="820.53241"
+       y="245"
+       width="50.222462"
+       height="10"
+       id="image9" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="601132"
+     data-drawing="0HJWAfE7L1m9AtdejET_Fx"
+     id="g11">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CElectrical%20Utility%20North.svg"
+       x="30.0"
+       y="405.0"
+       width="349.8729889923793"
+       height="400.0"
+       id="image10" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="30.0"
+       y="810.0"
+       width="50.222462"
+       height="10.0"
+       id="image11" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="601133"
+     data-drawing="2h2$yUMQH8TRmdejUfiG6p"
+     id="g13"
+     transform="translate(140.19355,-236.74193)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CElectrical%20Utility%20West.svg"
+       x="229.87299"
+       y="265.48499"
+       width="400"
+       height="348.85999"
+       id="image12" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="229.87299"
+       y="619.34552"
+       width="50.222462"
+       height="10"
+       id="image13" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="601525"
+     data-drawing="2lp$AxaRvCHARGY3mjbUnb"
+     id="g15"
+     transform="translate(215.51223,425.19575)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CElectrical%20Bed%202%20Dress.svg"
+       x="519.87299"
+       y="195.65498"
+       width="300"
+       height="174.58"
+       id="image14" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="519.87299"
+       y="375.23026"
+       width="50.222462"
+       height="10"
+       id="image15" />
+  </g>
+  <g
+     data-type="drawing"
+     data-id="601879"
+     data-drawing="30DwylLOn5KRfTDxYjnUD8"
+     id="g17"
+     transform="translate(10.807564,150.34985)">
+    <image
+       data-type="foreground"
+       xlink:href="..%5Cdrawings%5CElectrical%20Living%20West.svg"
+       x="709.87299"
+       y="265.48499"
+       width="350"
+       height="174.8306"
+       id="image16" />
+    <image
+       data-type="view-title"
+       xlink:href="assets%5Cview-title.svg"
+       x="709.87299"
+       y="445.31558"
+       width="50.222462"
+       height="10"
+       id="image17" />
+  </g>
+</svg>
