@@ -5,7 +5,7 @@
    width="1189.0mm"
    height="841.0mm"
    viewBox="0 0 1189.0 841.0"
-   sodipodi:docname="A08 - Electrical Drawings2.svg"
+   sodipodi:docname="A08 - Electrical 2.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -13,9 +13,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs13" />
+     id="defs17" />
   <sodipodi:namedview
-     id="namedview13"
+     id="namedview17"
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.20005081"
-     inkscape:cx="1677.0739"
-     inkscape:cy="547.36094"
+     inkscape:zoom="0.17285124"
+     inkscape:cx="1715.3478"
+     inkscape:cy="2183.9588"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -46,60 +46,60 @@
   </g>
   <g
      data-type="drawing"
-     data-id="589599"
-     data-drawing="2Oxu8P6110H9drteGuLqE6"
+     data-id="98528"
+     data-drawing="0SGVFS2k531xXQUETQVwjf"
      id="g3"
-     transform="translate(9.2580645,-2.6451613)">
+     transform="translate(313.7934,365.83721)">
     <image
        data-type="foreground"
-       xlink:href="..%5Cdrawings%5CElectrical%20TVlounge.svg"
+       xlink:href="..%5Cdrawings%5CElectrical%20Bed%201%20Dress.svg"
        x="30"
        y="30"
-       width="300.53244"
-       height="350"
+       width="300"
+       height="174.91525"
        id="image2" />
     <image
        data-type="view-title"
        xlink:href="assets%5Cview-title.svg"
        x="30"
-       y="385"
+       y="209.91525"
        width="50.222462"
        height="10"
        id="image3" />
   </g>
   <g
      data-type="drawing"
-     data-id="601129"
-     data-drawing="0SGVFS2k531xXQUETQVwjf"
+     data-id="98529"
+     data-drawing="2lp$AxaRvCHARGY3mjbUnb"
      id="g5"
-     transform="translate(61.5,595.16129)">
+     transform="translate(377.31746,404.03896)">
     <image
        data-type="foreground"
-       xlink:href="..%5Cdrawings%5CElectrical%20Bed%201%20Dress.svg"
-       x="340.53244"
+       xlink:href="..%5Cdrawings%5CElectrical%20Bed%202%20Dress.svg"
+       x="340"
        y="30"
        width="300"
-       height="174.91525"
+       height="174.57628"
        id="image4" />
     <image
        data-type="view-title"
        xlink:href="assets%5Cview-title.svg"
-       x="340.53244"
-       y="209.91525"
+       x="340"
+       y="209.57628"
        width="50.222462"
        height="10"
        id="image5" />
   </g>
   <g
      data-type="drawing"
-     data-id="601130"
+     data-id="98530"
      data-drawing="1UPPN9M2b5pRDi7s$rn8N9"
      id="g7"
-     transform="translate(-252.66797,386.82161)">
+     transform="translate(63.524034,603.02991)">
     <image
        data-type="foreground"
        xlink:href="..%5Cdrawings%5CElectrical%20Bed1%20Toilet.svg"
-       x="650.53241"
+       x="650"
        y="30"
        width="300"
        height="174.91525"
@@ -107,7 +107,7 @@
     <image
        data-type="view-title"
        xlink:href="assets%5Cview-title.svg"
-       x="650.53241"
+       x="650"
        y="209.91525"
        width="50.222462"
        height="10"
@@ -115,114 +115,115 @@
   </g>
   <g
      data-type="drawing"
-     data-id="601131"
+     data-id="98531"
      data-drawing="2TT6GkV9vCOP6RUqkJlamB"
      id="g9"
-     transform="translate(-22.456343,137.45439)">
+     transform="translate(-4.5920989,-214.29795)">
     <image
        data-type="foreground"
        xlink:href="..%5Cdrawings%5CElectrical%20Kitchen%20Utility%20East.svg"
-       x="820.53241"
-       y="-110"
+       x="30"
+       y="229.91525"
        width="350"
        height="350"
        id="image8" />
     <image
        data-type="view-title"
        xlink:href="assets%5Cview-title.svg"
-       x="820.53241"
-       y="245"
+       x="30"
+       y="584.91528"
        width="50.222462"
        height="10"
        id="image9" />
   </g>
   <g
      data-type="drawing"
-     data-id="601132"
-     data-drawing="0HJWAfE7L1m9AtdejET_Fx"
-     id="g11">
+     data-id="98532"
+     data-drawing="30DwylLOn5KRfTDxYjnUD8"
+     id="g11"
+     transform="translate(-48.982387,365.83721)">
     <image
        data-type="foreground"
-       xlink:href="..%5Cdrawings%5CElectrical%20Utility%20North.svg"
-       x="30.0"
-       y="405.0"
-       width="349.8729889923793"
-       height="400.0"
+       xlink:href="..%5Cdrawings%5CElectrical%20Living%20West.svg"
+       x="390"
+       y="229.91525"
+       width="350"
+       height="174.8306"
        id="image10" />
     <image
        data-type="view-title"
        xlink:href="assets%5Cview-title.svg"
-       x="30.0"
-       y="810.0"
+       x="390"
+       y="409.74585"
        width="50.222462"
-       height="10.0"
+       height="10"
        id="image11" />
   </g>
   <g
      data-type="drawing"
-     data-id="601133"
-     data-drawing="2h2$yUMQH8TRmdejUfiG6p"
+     data-id="98533"
+     data-drawing="2Oxu8P6110H9drteGuLqE6"
      id="g13"
-     transform="translate(140.19355,-236.74193)">
+     transform="translate(-720.95953,165.31556)">
     <image
        data-type="foreground"
-       xlink:href="..%5Cdrawings%5CElectrical%20Utility%20West.svg"
-       x="229.87299"
-       y="265.48499"
-       width="400"
-       height="348.85999"
+       xlink:href="..%5Cdrawings%5CElectrical%20TVlounge.svg"
+       x="750"
+       y="229.91525"
+       width="300.53244"
+       height="350"
        id="image12" />
     <image
        data-type="view-title"
        xlink:href="assets%5Cview-title.svg"
-       x="229.87299"
-       y="619.34552"
+       x="750"
+       y="584.91528"
        width="50.222462"
        height="10"
        id="image13" />
   </g>
   <g
      data-type="drawing"
-     data-id="601525"
-     data-drawing="2lp$AxaRvCHARGY3mjbUnb"
+     data-id="98534"
+     data-drawing="0HJWAfE7L1m9AtdejET_Fx"
      id="g15"
-     transform="translate(215.51223,425.19575)">
+     transform="translate(764.58446,-593.91146)">
     <image
        data-type="foreground"
-       xlink:href="..%5Cdrawings%5CElectrical%20Bed%202%20Dress.svg"
-       x="519.87299"
-       y="195.65498"
-       width="300"
-       height="174.58"
+       xlink:href="..%5Cdrawings%5CElectrical%20Utility%20North.svg"
+       x="30"
+       y="604.91528"
+       width="349.87299"
+       height="400"
        id="image14" />
     <image
        data-type="view-title"
        xlink:href="assets%5Cview-title.svg"
-       x="519.87299"
-       y="375.23026"
+       x="30"
+       y="1009.9153"
        width="50.222462"
        height="10"
        id="image15" />
   </g>
   <g
      data-type="drawing"
-     data-id="601879"
-     data-drawing="30DwylLOn5KRfTDxYjnUD8"
+     data-id="98535"
+     data-drawing="2h2$yUMQH8TRmdejUfiG6p"
      id="g17"
-     transform="translate(10.807564,150.34985)">
+     transform="translate(-10.714897,-590.85006)">
     <image
        data-type="foreground"
-       xlink:href="..%5Cdrawings%5CElectrical%20Living%20West.svg"
-       x="709.87299"
-       y="265.48499"
-       width="350"
-       height="174.8306"
+       xlink:href="..%5Cdrawings%5CElectrical%20Utility%20West.svg"
+       x="389.87299"
+       y="604.91528"
+       width="400"
+       height="348.8569"
        id="image16" />
     <image
        data-type="view-title"
        xlink:href="assets%5Cview-title.svg"
-       x="709.87299"
-       y="445.31558"
+       x="389.87299"
+       y="958.77216"
        width="50.222462"
        height="10"
        id="image17" />
