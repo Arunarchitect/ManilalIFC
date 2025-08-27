@@ -1,2 +1,0 @@
-Clash Detection
-For testing if any object is duplicated go for testing Clearence clash test, with a clearance more than like 1cm or a more realistic value more than 0.

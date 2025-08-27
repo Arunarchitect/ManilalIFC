@@ -1,7 +1,13 @@
 Date,Item,Rectification status,Description,Date
-30July2025,The site boundaries where setback is minimal lacks a boundary wall ;need to construct it before construction.,Yes,"Discussed with client as well as contractor, decided to do the boundary first.",2August2025
 31July2025,Fenesta Door 6 need to be readjusted as per grid.,No,,
+11August2025,"The tie beams details need to be bought from the strcutural consultant, specially the one below the car garage to accommodate the plumbing lines.",No,Need to incorporated in model,27August2025
+12August2025,The lift structure details need to be taken care of from the footing itself.,No,"The lift column details has been given , but the welldetails(depth etc) needs to be taken care of, probably from an elevator dealer or so.",27August2025
+25August2025,Door height to be reduced to 2.4m from 2.8 in the balcony side.,No,Need to incorporated in model,27August2025
+25August2025,Fenesta is overpriced (46lakhs) and client looking out for more Companies like saint gobain-assume its direct without an middle players.,No,Need to analyse the quotes,27August2025
+26August2025,The Bed1 balcony and its structure details need to be confirmed.,No,,27August2025
+26August2025,The Verandah overhang and rain water splashing it to the verandah needs to be confirmed.,No,,27August2025
+26August2025,The Verandah edge detail drawing has to be made and incorporated it to structure.,No,,27August2025
+30July2025,The site boundaries where setback is minimal lacks a boundary wall ;need to construct it before construction.,Yes,"Discussed with client as well as contractor, decided to do the boundary first.",2August2025
 7August2025,"1 Aug discussion, study on comparision of earth fill vs void, The void had upperhand of about 4 lakhs. Need to discuss with structural consultant.",Yes,"Prelim. Discuss with client on 4Aug, The structural consultant had already decided to use PCC over the filled earth, where we take it for granted as an RCC floor. If going for void the RCC Floor will cost more.",11August2025
-11August2025,"The tie beams details need to be bought from the strcutural consultant, specially the one below the car garage to accommodate the plumbing lines.",No,,
-12August2025,The column footing in BIM model needs correction.,No,,
-12August2025,The lift structure need to be taken care of from the footing itself.,No,,
+12August2025,The column footing in BIM model needs correction.,Yes,Details sent by Lalu Mangal.,16August2025
+13August2025,"Lalu Mangal visit to site, advised to consider all First Floor area to be built up with RCC slab , not Earthfill and PCC.",Yes,"An approx. amount of 8lakhs more is needed for the Earthfill, so decide to go for RCC floor with void below.",18August2025
