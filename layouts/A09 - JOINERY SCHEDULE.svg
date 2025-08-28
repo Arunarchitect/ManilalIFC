@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" id="root" version="1.1" width="1189.0mm" height="841.0mm" viewBox="0 0 1189.0 841.0" sodipodi:docname="A09 - JOINERY SCHEDULE.svg" inkscape:version="1.3 (0e150ed6c4, 2023-07-21)">
+  <defs id="defs7" />
+  <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="0.9070157" inkscape:cx="4128.374" inkscape:cy="2147.1514" inkscape:window-width="1920" inkscape:window-height="1017" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="root" />
+  <g data-type="titleblock" id="g1">
+    <image xlink:href="titleblocks/A0.svg" x="0" y="0" width="1189.0" height="841.0" id="image1" />
+  </g>
+  <g data-type="drawing" data-id="109302" data-drawing="0NNH7t4jjDlx9ertoB4p33" id="g3">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5CSCHEDULE.svg" x="30.0" y="30.0" width="875.2000427246094" height="256.7343778580704" id="image2" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="30.0" y="291.7343778580704" width="98.051987" height="10.0" id="image3" />
+  </g>
+  <g data-type="drawing" data-id="109303" data-drawing="2hCZgZJdD7OOYIbwRkCsMz" id="g5" transform="translate(-158.41412,334.97987)">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5CGROUND%20FLOOR%20PLAN.svg" x="915.20007" y="30" width="220.01627" height="324.43079" id="image4" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="915.20007" y="359.43079" width="98.051987" height="10" id="image5" />
+  </g>
+  <g data-type="drawing" data-id="109304" data-drawing="3WsoyVZwL1pvyLB91UUkR7" id="g7" transform="translate(133.66192,-89.107945)">
+    <image data-type="foreground" xlink:href="..%5Cdrawings%5CFIRST%20FLOOR%20PLAN.svg" x="30" y="379.43079" width="500" height="500" id="image6" />
+    <image data-type="view-title" xlink:href="assets%5Cview-title.svg" x="30" y="884.43079" width="98.051987" height="10" id="image7" />
+  </g>
+</svg>
