@@ -1,16 +1,17 @@
 Date,Item,Rectification status,Description,Date
 31July2025,Fenesta Door 6 need to be readjusted as per grid.,No,,
-11August2025,"The tie beams details need to be bought from the structural consultant, specially the one below the car garage to accommodate the plumbing lines.",No,Need to incorporated in model,27August2025
-12August2025,The lift structure details need to be taken care of from the footing itself.,No,"The lift column details has been given , but the welldetails(depth etc) needs to be taken care of, probably from an elevator dealer or so.",27August2025
-8Septmeber2025,Door height to be reduced to 2.4m from 2.8 in the Bed 2.,Yes,,9Septmeber2025
-25August2025,Door height to be reduced to 2.4m from 2.8 in the balcony side.,Yes,Incorporated in model,27August2025
-25August2025,Fenesta is overpriced (46lakhs) and client looking out for more Companies like saint gobain-assume its direct without an middle players.,No,Need to analyse the quotes,27August2025
+27August2025,"C6 and D6 Columns centralised with the GRID6, which was earlier +3.5cm to the south from GRID 6, need to inform and normalise it in site and contractor",Yes,Corrected in IFC and forwarded to contractor,9Septmeber2025
+27August2025,"Mr.Manilal paid 80k in cash instead of billed amount for Stage 3, to be balanced in the next bill.",No,Need to balance in next bills,9Septmeber2025
 26August2025,The Bed1 balcony and its structure details need to be confirmed.,No,,27August2025
 26August2025,The Verandah overhang and rain water splashing it to the verandah needs to be confirmed.,No,,27August2025
 26August2025,The Verandah edge detail drawing has to be made and incorporated it to structure and immediately informed to contractor and site.,No,"Prepared column setout drawing with 10cmoffset,need to prepare final details.",9Septmeber2025
-30July2025,The site boundaries where setback is minimal lacks a boundary wall ;need to construct it before construction.,Yes,"Discussed with client as well as contractor, decided to do the boundary first.",2August2025
+25August2025,Fenesta is overpriced (46lakhs) and client looking out for more Companies like saint gobain-assume its direct without an middle players.,No,Need to analyse the quotes,27August2025
+12August2025,The lift structure details need to be taken care of from the footing itself.,No,"The lift column details has been given , but the welldetails(depth etc) needs to be taken care of, probably from an elevator dealer or so.",27August2025
+11August2025,"The tie beams details need to be bought from the structural consultant, specially the one below the car garage to accommodate the plumbing lines.",No,Need to incorporated in model,27August2025
+10Septmeber2025,"Column in Bed3 SW (F2) corner was changed after superimposed drawing from Lalu Mangal, need attention",No,,10Septmeber2025
+8Septmeber2025,Door height to be reduced to 2.4m from 2.8 in the Bed 2.,Yes,,9Septmeber2025
 7August2025,"1 Aug discussion, study on comparision of earth fill vs void, The void had upperhand of about 4 lakhs. Need to discuss with structural consultant.",Yes,"Prelim. Discuss with client on 4Aug, The structural consultant had already decided to use PCC over the filled earth, where we take it for granted as an RCC floor. If going for void the RCC Floor will cost more.",11August2025
-12August2025,The column footing in BIM model needs correction.,Yes,Details sent by Lalu Mangal.,16August2025
+30July2025,The site boundaries where setback is minimal lacks a boundary wall ;need to construct it before construction.,Yes,"Discussed with client as well as contractor, decided to do the boundary first.",2August2025
+25August2025,Door height to be reduced to 2.4m from 2.8 in the balcony side.,Yes,Incorporated in model,27August2025
 13August2025,"Lalu Mangal visit to site, advised to consider all First Floor area to be built up with RCC slab , not Earthfill and PCC.",Yes,"An approx. amount of 8lakhs more is needed for the Earthfill, so decide to go for RCC floor with void below.",18August2025
-27August2025,"C6 and D6 Columns centralised with the GRID6, which was earlier +3.5cm to the south from GRID 6, need to inform and normalise it in site and contractor",No,,27August2025
-27August2025,"Mr.Manilal paid 80k in cash instead of billed amount for Stage 3, to be balanced in the next bill.",No,,
+12August2025,The column footing in BIM model needs correction.,Yes,Details sent by Lalu Mangal.,16August2025

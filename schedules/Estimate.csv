@@ -18,13 +18,14 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 5,1.1.1.5.2,FF- Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,32000,,,,NetVolume,"IfcColumn,location=FF"
 ,,,,,,,,,,,
 4,1.1.1.6,Retaining Wall,,,,,,,,,
-5,1.1.1.6.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""NEW""+IfcWall, type=""RCCWall_230mm"",""EPset_Status"".""Status"" = ""EXISTING"""
+5,1.1.1.6.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_200mm"""
 4,1.1.1.7,Floors,,,,,,,,,
 5,1.1.1.7.1,PCC for Ground Floor,,m3,,10000,,,,NetVolume,"IfcSlab,location=GF"
-5,1.1.1.7.2,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m3,,20000,,,,NetVolume,"IfcSlab,type=""RCC_0.1D"", location=FF + IfcSlab, type=""FloorPCC"",location=FF, ""EPset_Status"".""Status"" = ""NEW"""
+5,1.1.1.7.2,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m3,,20000,,,,NetVolume,"IfcSlab,location=FF"
 5,1.1.1.7.3,RCC Floor Slab – Second Floor – Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,20000,,,,NetVolume,"IfcSlab, location=SF"
 4,1.1.1.7,Beams,,,,,,,,,
-5,1.1.1.6.2,Structural Beams – Ground Floor and First Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=Footing + IfcBeam, location=FF +IfcBeam, location=SF"
+5,1.1.1.6.2,Structural Beams – Ground Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=Footing "
+5,1.1.1.6.2,Structural Beams – First Floor Bottom -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=FF "
 4,1.1.1.8,Walls,,,,,,,,,
 5,1.1.1.8.1,Brick Partition Wall – Ground Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=GF"
 5,1.1.1.8.2,Brick Partition Wall – First Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
