@@ -14,7 +14,7 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 4,1.1.1.5.2,FF- Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,32000,,,,NetVolume,"IfcColumn,location=FF"
 ,,,,,,,,,,,
 3,1.1.1.6,Retaining Wall,,,,,,,,,
-4,1.1.1.6.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_200mm"""
+4,1.1.1.6.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_200mm"" + type=""RCCWall_230mm"", location=""Footing"""
 3,1.1.1.7,Floors,,,,,,,,,
 4,1.1.1.7.1,PCC for Ground Floor,,m3,,10000,,,,NetVolume,"IfcSlab,location=GF"
 4,1.1.1.7.2,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m3,,20000,,,,NetVolume,"IfcSlab,location=FF"
@@ -22,6 +22,7 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 3,1.1.1.7,Beams,,,,,,,,,
 4,1.1.1.6.2,Structural Beams – Ground Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=Footing "
 4,1.1.1.6.2,Structural Beams – First Floor Bottom -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=FF "
+4,1.1.1.6.2,Structural Beams – Second Floor  -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=SF "
 3,1.1.1.8,Walls,,,,,,,,,
 4,1.1.1.8.1,Brick Partition Wall – Ground Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=GF"
 4,1.1.1.8.2,Brick Partition Wall – First Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
