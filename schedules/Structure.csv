@@ -12,23 +12,32 @@ Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,
 3,1.1.1.5,Columns,,,,,,,,,
 4,1.1.1.5.1,"GF- Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio, The ground floor columns include the Short columns upto the ground floor level as well as the columns of ground floor upto the first floor level",,m3,,32000,,,,NetVolume,"IfcColumn, location=Footing"
 4,1.1.1.5.2,First Floor - Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,32000,,,,NetVolume,"IfcColumn,location=FF"
-,,,,,,,,,,,
+3,1.1.1.5,Columns,,,,,,,,,
+4,1.1.1.5.1,"GF- Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio, The ground floor columns include the Short columns upto the ground floor level as well as the columns of ground floor upto the first floor level",,m3,,32000,,,,Length,"IfcColumn, location=Footing"
+4,1.1.1.5.2,First Floor - Reinforced Cement Concrete Columns  in M20(1:1.5:3)  mix ratio,,m3,,32000,,,,Length,"IfcColumn,location=FF"
 3,1.1.1.6,Retaining Wall,,,,,,,,,
 4,1.1.1.6.1,Reinforced Cement Concrete Retaining Wall  in M20(1:1.5:3)  mix ratio,,m3,,28000,,,,NetVolume,"IfcWall, type=""RCCWall_200mm"" + type=""RCCWall_230mm"", location=""Footing"""
 3,1.1.1.7,Floors,,,,,,,,,
 4,1.1.1.7.1,PCC for Ground Floor,,m3,,10000,,,,NetVolume,"IfcSlab,location=GF"
 4,1.1.1.7.2,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m3,,20000,,,,NetVolume,"IfcSlab,location=FF"
 4,1.1.1.7.3,RCC Floor Slab – Second Floor – Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,20000,,,,NetVolume,"IfcSlab, location=SF"
+3,1.1.1.7,Floors Plaster,,,,,,,,,
+4,1.1.1.7.2,RCC Floor Slab – First Floor – Reinforced cement concrete M20 ( 1:1.5:3 )using 20mm nominal size broken stone,,m2,,500,,,,NetArea,"IfcSlab,location=FF"
+4,1.1.1.7.3,RCC Floor Slab – Second Floor – Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m2,,500,,,,NetArea,"IfcSlab, location=SF"
 3,1.1.1.7,Beams,,,,,,,,,
 4,1.1.1.6.2,Structural Beams – Ground Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone – nb:This includes the plinth beams of the ground floor floor level and below.,,m3,,30000,,,,NetVolume,"IfcBeam, location=Footing "
 4,1.1.1.6.2,Structural Beams – First Floor Bottom -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=FF "
 4,1.1.1.6.2,Structural Beams – Second Floor  -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,30000,,,,NetVolume,"IfcBeam, location=SF "
+3,1.1.1.7,Beams,,,,,,,,,
+4,1.1.1.6.2,Structural Beams – Ground Floor -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone – nb:This includes the plinth beams of the ground floor floor level and below.,,m3,,0,,,,Length,"IfcBeam, location=Footing "
+4,1.1.1.6.2,Structural Beams – First Floor Bottom -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,0,,,,Length,"IfcBeam, location=FF "
+4,1.1.1.6.2,Structural Beams – Second Floor  -Reinforced cement concrete M20 (1:1.5:3) using 20mm nominal size broken stone ,,m3,,0,,,,Length,"IfcBeam, location=SF "
 3,1.1.1.8,Walls,,,,,,,,,
 4,1.1.1.8.1,Brick Partition Wall – Ground Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=GF"
 4,1.1.1.8.2,Brick Partition Wall – First Floor- Concrete block,,m3,,10000,,,,NetVolume,"IfcWall, location=FF"
 3,1.1.1.9,Staircase,,,,,,,,,
 4,1.1.1.9.1,RCC Stair,,m3,,26500,,,,NetVolume,"IfcStairFlight,type=""ST-01""+IfcStairFlight,type=""ST-02"""
 3,1.1.2.0,"Plastering walls with mix ratio 1:4, 12mm thick one coat floated hard and trowelled smooth including cost and conveyance of all materials to site, labour charges for curing, watering, scaffolding etc. complete",,,,,,,,,
-4,1.1.2.0.1,Plastering – Ground and First Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
-4,1.1.2.0.2,Plastering – Ground and First Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=GF +IfcWall, location=FF"
+4,1.1.2.0.1,Plastering – Ground Floor Walls side 1,,m2,,500,,,,NetSideArea,"IfcWall, location=GF "
+4,1.1.2.0.2,Plastering – First Floor Walls side 2,,m2,,500,,,,NetSideArea,"IfcWall, location=FF"
 2,1.1.3,Roof – fabricated using Steel trusses and overlaid with GI Roofing sheet,,m2,,3250,,,,NetArea,IfcRoof
