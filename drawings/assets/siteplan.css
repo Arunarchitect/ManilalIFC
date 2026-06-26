@@ -49,7 +49,8 @@ text, tspan { /* 2.5mm */ fill: rgb(255, 0, 0); stroke: none; font-family: 'Open
 .PredefinedType-STAIRARROW { marker-start: url(#stair-marker-start); marker-end: url(#stair-marker-end); }
 .PredefinedType-BOUNDARY { fill: none; stroke: red; stroke-width: 1; stroke-dasharray: 12, 4, 3, 4, 3, 4; }
 .PredefinedType-SEALANT { fill: url(#crosshatch1); stroke-width: 0.25; }
-.PredefinedType-FILLAREA { fill: white; stroke: black; }
+.PredefinedType-FILLAREA { fill: rgb(210, 246, 216); stroke: black; }
+.Name-FILLAREA1 { fill: rgb(176, 203, 184); stroke: black; }
 .PredefinedType-BREAKLINE { fill: none; stroke: black; stroke-width: 0.25; marker-mid: url(#breakline-marker); }
 .PredefinedType-TEXT { fill: black; stroke: none; }
 path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); }
