@@ -80,6 +80,7 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 .material-grass { fill: url(#grass); }
 .material-honeycomb { fill: url(#honeycomb); }
 .material-sand { fill: url(#sand); }
+.material-rcc { fill: url(#black); stroke-width: 0.5; }
 .material-concrete { fill: url(#concrete); stroke-width: 0.5; }
 .IfcSpace { fill: none; stroke: none; }
 .PredefinedType-STUD { stroke: black; stroke-width: 1; }
