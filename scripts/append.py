@@ -22,11 +22,11 @@ import ifcopenshell.api
 import bonsai.tool as tool
 
 # ---------------- CONFIG ----------------
-LIBRARY_PATH = r"D:\BIM\IFCdraft\JailaniIFC\Jailani.ifc"   # file A (source)
+LIBRARY_PATH = r"D:\BIM\IFCdraft\ManilalIFC\Manilal.ifc"   # file A (source)
 
 # Paste GlobalIds here as plain comma-separated text -- no quotes needed.
 GLOBAL_IDS_RAW = """
-1KVgXehG12NuuPUw6p3DTo,0GLarNUov1VeVl3fZ9q7UC,0BTi8epxf9RO8JCT6ZCY8o,2cDnyHeJX7fA7Imk3Iyk8L,2o$g85k7P0xeZo_jus001h,2WrF2PKrzDJ8fhsIL077S_,1yKhzPTSf6zPGFGzpUR2TF,2Ovcx8IZ1EKehSgxTznwf3,1ix6nRgZ52ohZzSN3cS_pg,0bUrJ1nQ1DxvfaksnMBKAb,0nU2nC6NL9vwl8JxfDqm8z,3T6ceO021Eie9xeMkf$5m$,1oE9kj3GHDV9msKO54AIMy,2gGFa_YsDBzvWdus98DlVJ,1KlD1fzKH7N9EzTcy_mpLg,3apIKERcTDD8lqwdmy74XB,1WcbdTcOH2QBA2kykCd4ee,0PGtUg1Sj02uJYpcVJ9C$A,23jQO982DDIBCZbF13RLjW,00MvRCrSv63O0wx1Bmw6do,2rA76Y8arEZuqO4btIGNQG,0t4q49QfX5NPetOlLc4BRK,1O_4NFNw1C0ue$ia7M6F$X,1inxOPZ6jBpQKscaGLOnNw,39jBbOfU5FZub2nlHJY41J,0q6swJxZf849iYym2hmy77,1jmg2_y01BTBdp9MkgGy7c,0sCnFyGnvCk8iaIZYQkQFq,1OPK7H_Ij6nQHKh1GXPYLh,2nKCWWunjBOe3EpfeONnxU,0lT4F4vxT90RLOoAeYalj2,3lTV6iICT0qeANfWctUB9Q,242h7U6OfFrxFBTJmjH2k5,25jv2_$THBIgsHefdbYP8A,2ub9BlFSb4seEUaULfYquA,0nRuhD_m56exN$5XvDId$g,01HONCZuf88g8ryR2U00no,3asoLGcLfCCwXuXElLs7LD,1etd2cWEHDOfjFz3bFlwSz,2sjnULEabAjwhfcTvt2Hg3,2tgzu0qPn0bu6lo4TZxvzl,2aicgLxivBx8IBvwytWrsb,3snr29qDPBVwAd3qmOci7U
+0zlhS4RPL7lRfPwGcdKWnU,2cN9Lf$sT3KBiodaXpFIbN,3NSVVnQjvCPguMxfxUzGbp,2QlkJfKQjC59jqGsEe_lqC,10llXVxHT9DBmhDpcRmEeC,308JJbD_vCA9kKjvRmAbGn,3$xScxlbP05B69mAgciY_w,026k2yz9bBUQVcLnmjGrxu,1r27gLjcnF1uC5c0ygLiJH,0ejtiMO0DADuoeKYvCE5Hp,1KPD3qd$98FBTaDu_ZE892,0gTfkTw0vFZP1F3wsAuwco,2S4S72m1z4sRa2lpjEpFf0
 """
 
 ELEMENT_CLASSES = []   # e.g. ["IfcFurniture", "IfcDoorType"] - by class
