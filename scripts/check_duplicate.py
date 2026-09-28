@@ -6,6 +6,11 @@ Check a list of IFC GlobalIds for:
      within a tolerance of each other (e.g. duplicates stacked on
      top of one another)
 
+If duplicates are found, they are also printed as comma-separated
+SETS: Set 1 = first element of every group, Set 2 = second element
+of every group, Set 3 = third (only if some group has 3+), etc.
+Keep Set 1, search/select Set 2+ (paste into Bonsai search) and delete.
+
 USAGE
 - If the file is currently open in Bonsai: just run this in Blender's
   Text Editor, it uses the live model.
@@ -27,7 +32,7 @@ SOURCE_PATH = r""   # only used when not running inside Bonsai
 
 # Option A: paste GlobalIds directly, comma/newline separated, no quotes.
 GLOBAL_IDS_RAW = """
-3vRSHD2T9AM8gZzgZsMvA2,0F8rjSor14AvP6b_oX77FF,2niFQd8cz689rC3yPADnD9,2_ogrHrQ16wQszzZQ4$1Js,1i8egTi9j6RwJAWc8wVS85,0OuT1jbUz46xk4hUQSKXnh,36qXah_Xj8r84Tdfd7AsFh,3aT02EmLf0hBae7r_s0agw,3lKDDAQDT6gerYdKa7axVW,0ddXiuRnLAJe_5wmjnMdM7,29PWW3qgDBDhQqLg2SzK40,2FQucbqhv8AhQbn$lqQ_T_
+21_FAYvFn2QuKOx4DDUf14,09yAaysE9C6xFoLihGC_Lz,1Be7idW3DABgHhmMYnb9O0,1ymLnESJjCsxv3KKBMJ3ws,3A9aD_O5f6dfVNNP1tID46,1Wy0bQM49Fw8G_YkyDFELP,3QR8$yxojExwa8n6djK9AB,2EXcxQf11EZBeKX9ehYbBv,2i4J_L$ZDBNu1umtLweo2p,1dttmt$9n1mvnVlE_txV53,3U$LRKxMj638rGqSfGuUEU,1YxII43b1A9OWf7_2uK0iw,21biRJfN9AX9hyPHaGi$HS,2B3GxNyzT6wACAu_CPhawi,2w_ar_H9jFV9mxJu9U5vmA,2NUSmSEYv60hlLM05J7NqX,3v6HnNffDARBR_sYZcofaf,2izN1SjAz9xBhJcgcNr1yb,2khXPqZ7zDOese_G_LW_kA,3MS8erpO57iBFi_1gF4Iyi,19NIVNPKbFbBO7hvKiEnx7,0_H6H2Xor3Sh5qXXGvgb6q,3ZwouuEsLAk8yO4x2IZIDX,1KCQ2nS6P77vitdAxsghW7,2Tz5_RK1v6V8m4bOQNHTSY,3z$$5J_bvFEwi$r5QCfGRD,3mVODSgsr9VemIjhxiu5KN,2j0f0x3xPEEukhkSys5_9D,09AJdfErL9DBvywIgVFG8f,0bo3mAE0vEQhyjpstQ4oA_,2ko5m26pL2pRGm$ZrCd$mW,0PJaY_S3X7buPWqthRGYUJ,0BbN2HobL4$wTygu2gJB8i,0HwPmIIXvDAfpe2_8eUHqj,13sSC40BD4VgCh3AGDsXfw,3VU$Cbio560h44XEHdUyWe,3_RAL6qGXA6whuCOkq3Kl0,0gokfD7unEzP1EBdvkLQ6d,36YPWYkUvBx8fZrGKndkwg,2NhLdKK2j5JRjpzUK9RVC2,1ExkOAiXT0LwdQvYQ8CX9E,1n9FcksfjE1A7jn0VYEIeg,1VbH1N3iX83h5IEk6gQKhC,1usdRDcuvFngB3PPGs8imB,1Bu_TqoKb1fxyTN52My23_,0SkYwQJpn2Dhp2IgABbwOt,2rSOLRlaH4nuxlWEMvN$cV,28ryNvR3H1kwji4YJmXn_g,2xbrB7TiP2x9E_2yfiWTSM,3bSK4hGDjEUuxsN0OqMTwY,01APXtiyfCFRKvjdBDy7lq,18rxADAfb4px$WtLHdoKlW,18yBDHGYv2Nxq2bxHzCizB,2IvrN3M3v5uOHUC3TQlYZh,2kZ6Pog4r91QcC3oR$TOmi,22qfNW6qD1Iwdy_ve74Z9v,0IkDNPYdr3ZQZXZoCvdRdY,1gFCS$MMn8fxFzvcG5EZ79,2CHghC$If8oPnLFJ59pElz,0MwzwkBPTBr9fA7FWG$XcQ,0KL_bjiYrDRfLeb$No44rf,0Iy3lnEFX1mBmn0$opb546,0OnSfqN8bEbhPPjyH$ShHc,2Gs4_eEX54Aff8lgTGUy1b,2PZQMEUITB0ufd5taMWKEg,2Aa7xTpHTCoxkUxRoRdQm7,1FfW_bR3T56R9NyB5gukP2,1$PMItK$nC3hskWCJugbrg,0fjG3kXj9AcRrwM3kVVqq0,1zJmrjMnH4dhynFpaGceP0,1OPtJDNk10TgyScs8wOP$f,1ATG5ci759hQcZZNXBoNaF,0O9ceujyj5jxd_4YNV$ZVA,3eq0$8dILDWRu3YylNoBlt,20kHt5yEzCQeEhS5NMJjhy,14nRP3h75CSRCDjUshOno$,1vR3CvfPzFl8RXAzhdCoPV,3O2yqCm5P06wG75GbBe3KR,19z3iwGlr0iPqK7JOWJbtm,1Lydic6zT6HOlDixNG0$8X,128oujVLX4F8CgmOvnqpmc,3lgchz6c564RBt8RnuuIku,1WPdcsBoDF3fF6r8uam7Qa,3xZKVs3HbCxeb2OX6E1I4E,3BSl5WDh19X9H66awf9v8K,3PBi_0jJ9AEfdPnMB67Ky8,1vgHDf81P9FfgcwqUDnLfU,3kr$wVi0D3z83I7fHPUb5P,2rde46g_TEoQ7kIVfO36A8,0tblaJBe15Tep3EnXXsiqn,19WWyfqAb5dhvEuHX5fgGn,2oXnIH59z4tx1hutMfs6dk,2nCtH7cQH5memELJL2_wVB,1wCHTM7CTF68_pvstRMXBs,09p_02D8H0le$$AbIGsxTp,3cULKomMjASRez$NvmgCeb,0ebIe$MiHCrvhukJIlU26o,2ai9c_Lln3X9Pj$vkheP17,1TMgziKrX1sBnGJiXhei55,1i8gvdh5j3nuSFrm1dHPMY,0DA5xhiVr9CgaPEud8tnFi,1gTgFqPZbBMuJnDjhY4JuR,0XxhQpxHf8VB6kq6Q8d5I6,3Y1xB96NrFF8lRDQ7NWsXv,3OPRC1D6T4uuyYSBTeRPHZ,3GIcW1jL99jPj7Kqg$nMNA,2u2Bm7GZjBKwHL279UzZx2,0NcsfJeAv0Rue2rpYZfle2,2CPCD3H7rF5w7Mx$kpo5Pc,2tnSvZm9fCvRYXMDAPY4f1,0kvp3TwCz5nfuAsGvAzneK,0ASMUVHOb3EByRNDylL69W,2j1ZYqTvTDd8KhtsxM3UbG,2Y292tnfnEWO97xFYuvUCe,07ak4$f4bEKR25b2s0qMZg,1vYxbiJCv6aOyiVGzm0aoG,1iRAELgpD27hATQ3LgR4oq,2YfPIzdwXAD9GbGABIYSZU,13t467EwfFIfXgdBVMbQoJ,1YGEf0myDFDv$2sCNSwWBI,2kiIocktDDUee6qQhUzSBU,2xNCLUcb1EGe_L2YAEfi1M,0fNRAT8T59rQoShUnIXn8C,1UJ6RZHkD2GPqxmBDIj3zC,0rzmLRET9BwAU4WWt_040J,2aE0mxziv14RiNQXw8b3kA,0naDoJjSb6Awa_HQ$6fxWh,111fTngJ17ugeAhdztWKS6,0JJhV7eIv0c8ywA1hamS2C,2qdytyaknCz9GGQi7piZCV,3NbUBiUur6nv4QZJ1kHgds,3QzBqPNYH9nxcbKnfNwov4,1Q7zcAz8L3LR$v_xJdF9bX,3kPvCP_Gv2dfb1jru2NF_u,32CjWEfXn2nRV2IvcfZ857,0jsS30bCLDz85i$ZJ0pdbr,1Z9DF24VD7hOGuFgpzFTaL,0gEanLE7LEUQ4WhHtnjqAp,3c0_CDVYv1Qef4PSnp2uJk,2OEDtBwIr55gNJRWU3ivl_
 """
 
 # Option B: read GlobalIds from a CSV file instead. Leave CSV_PATH empty
@@ -35,7 +40,7 @@ GLOBAL_IDS_RAW = """
 CSV_PATH = r""
 CSV_COLUMN = "GlobalId"   # column header name, or an integer index like 0
 
-POSITION_TOLERANCE = 0.05   # meters -- centers within this distance are "same position"
+POSITION_TOLERANCE = 0.0001   # meters -- centers within this distance are "same position"
 
 
 def get_file():
@@ -122,7 +127,8 @@ def distance(a, b):
 def cluster_by_position(items, tolerance):
     """items: list of (guid, center). Returns list of clusters (each a
     list of guids) where every member is within `tolerance` of at
-    least one other member (simple union-find style clustering)."""
+    least one other member (simple union-find style clustering).
+    Member order inside a cluster follows the input order."""
     n = len(items)
     parent = list(range(n))
 
@@ -147,6 +153,18 @@ def cluster_by_position(items, tolerance):
         groups[find(i)].append(items[i][0])
 
     return [g for g in groups.values() if len(g) > 1]
+
+
+def build_duplicate_sets(clusters):
+    """Set k = k-th member of every cluster that has at least k members.
+    Set 1 = the ones to keep, Set 2+ = the ones to delete."""
+    if not clusters:
+        return []
+    max_n = max(len(c) for c in clusters)
+    sets = []
+    for k in range(max_n):
+        sets.append([c[k] for c in clusters if len(c) > k])
+    return sets
 
 
 def main():
@@ -212,6 +230,18 @@ def main():
                 name = getattr(el, "Name", None) or "Unnamed"
                 log.append(f"    {el.is_a():20s} {name:25s} {g}")
     log.append("")
+
+    # ---- Comma-separated duplicate sets (copy -> search -> delete) ----
+    if clusters:
+        dup_sets = build_duplicate_sets(clusters)
+        log.append("== Duplicate sets (comma-separated, copy & search) ==")
+        log.append("Set 1 = keep.  Set 2+ = delete (one of each duplicate group).")
+        log.append("")
+        for k, s in enumerate(dup_sets, start=1):
+            role = "KEEP" if k == 1 else "DELETE"
+            log.append(f"Set {k} [{role}] ({len(s)} ids):")
+            log.append(",".join(s))
+            log.append("")
 
     text = "\n".join(log)
     print(text)
