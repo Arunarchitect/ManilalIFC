@@ -19,13 +19,196 @@
  */
 
 * { stroke-linecap: round; stroke-linejoin: round; }
-text, tspan { /* 2.5mm */ fill: rgb(255, 0, 0); stroke: none; font-family: 'OpenGost Type B TT', 'DejaVu Sans Condensed', 'Liberation Sans', 'Arial Narrow', 'Arial'; font-size: 3px; }
+text, tspan {
+    fill: rgb(255, 0, 0);
+    stroke: none;
+    font-family: 'Roboto Light', 'Roboto', 'Arial', sans-serif;
+    font-size: 3px;
+}
 .cut { fill: black; stroke: black; stroke-linecap: 'round'; stroke-width: 0.35; fill-rule: evenodd; }
 .projection { fill: white; stroke: black; stroke-linecap: 'round'; stroke-width: 0.25; }
 .surface { stroke: none; fill: #fff; fill-rule: evenodd; }
-.annotation { fill: none; stroke: rgb(0, 26, 255); stroke-linecap: 'round'; stroke-width: 0.25; }
-.IfcAnnotation { fill: none; stroke: rgb(0, 38, 255); stroke-linecap: 'round'; stroke-width: 0.25; }
-.IfcGeographicElement { fill: none; stroke: black; stroke-linecap: 'round'; stroke-width: 1; }
+.annotation {
+    fill: none;
+    stroke: rgb(56, 56, 55);
+    stroke-opacity: 0.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.IfcAnnotation {
+    fill: none;
+    stroke: rgb(0, 0, 0);
+    stroke-opacity: 0.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.IfcFurniture {
+    fill: rgb(234, 239, 246);
+    fill-opacity: .5;
+    stroke: rgb(62, 62, 61);
+    stroke-opacity: 0.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.IfcSystemFurnitureElement {
+    fill: rgb(234, 239, 246);
+    fill-opacity: .5;
+    stroke: rgb(62, 62, 61);
+    stroke-opacity: 0.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+
+.IfcDoor {
+    fill: none;
+    stroke: rgb(124, 124, 123);
+    stroke-opacity: 0.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.IfcWindow {
+    fill: none;
+    stroke: rgb(124, 124, 123);
+    stroke-opacity: 0.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.IfcElectricAppliance {
+    fill: none;
+    stroke: rgb(124, 124, 123);
+    stroke-opacity: 0.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+} 
+.IfcSanitaryTerminal {
+    fill: rgb(234, 239, 246);
+    fill-opacity: .5;
+    stroke: rgb(234, 239, 246);
+    stroke-opacity: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.IfcSlab {
+    fill: rgb(165, 201, 242);
+    fill-opacity: .2;
+    stroke: rgb(165, 201, 242);
+    stroke-opacity: 0.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.IfcWall {
+    fill: rgb(165, 201, 242);
+    fill-opacity: .9;
+    stroke: rgb(63, 144, 237);
+    stroke-opacity: 0.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.material-brick {
+    fill: rgb(165, 201, 242);
+    fill-opacity: .9;
+    stroke: rgb(165, 201, 242);
+    stroke-opacity: 0.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: .5;
+}
+.material-brick2 {
+    fill: rgb(165, 201, 242);
+    fill-opacity: .9;
+    stroke: rgb(165, 201, 242);
+    stroke-opacity: 0.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+
+.IfcColumn {
+    fill: rgb(165, 201, 242);
+    fill-opacity: .8;
+    stroke: rgb(165, 201, 242);
+    stroke-opacity: 0.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+} 
+
+.material-tile {
+    fill: rgb(241, 236, 226);
+    stroke: rgb(124, 124, 123);
+    stroke-opacity: 0.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.material-blank { 
+    fill: rgb(234, 239, 246);
+    fill-opacity: .5;
+    stroke: rgb(234, 239, 246);
+    stroke-opacity: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.material-stair { 
+    fill: rgb(165, 201, 242);
+    fill-opacity: .1;
+    stroke: rgb(165, 201, 242);
+    stroke-opacity: 0.1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.material-porch { 
+    fill: rgb(234, 239, 246);
+    fill-opacity: .5;
+    stroke: rgb(234, 239, 246);
+    stroke-opacity: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.material-human { 
+    fill: rgb(241, 236, 226);
+    stroke: rgb(124, 124, 123);
+    stroke-opacity: 0.25;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+
+
+
+
+
+.material-nofill { fill:  rgb(140, 101, 69); stroke: none; stroke-linecap: 'round'; stroke-width: 1; }
+.material-fill { fill:  rgb(236, 193, 158); stroke: none; stroke-linecap: 'round'; stroke-width: 1; }
+
 .PredefinedType-LINEWORK { stroke: black; stroke-width: 0.25; }
 .PredefinedType-LINEWORK.dashed { stroke-dasharray: 3, 2; }
 .PredefinedType-LINEWORK.fine { stroke-width: 0.18; stroke: #777777; }
@@ -52,15 +235,16 @@ text, tspan { /* 2.5mm */ fill: rgb(255, 0, 0); stroke: none; font-family: 'Open
 .PredefinedType-FILLAREA { fill: white; stroke: black; }
 .PredefinedType-BREAKLINE { fill: none; stroke: black; stroke-width: 0.25; marker-mid: url(#breakline-marker); }
 .PredefinedType-TEXT { fill: black; stroke: none; }
+.PredefinedType-TEXTLEADER {  stroke: rgb(17, 0, 252); stroke-width: 0.15;  }
 path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); }
 text.PredefinedType-TEXTLEADER, tspan.PredefinedType-TEXTLEADER { fill: black; stroke: none; }
 text.title, tspan.title { /* 7mm */ font-size: 11.55px; }
 text.header, tspan.header { /* 5mm */ font-size: 8.25px; }
 text.large, tspan.large { /* 3.5mm */ font-size: 5.78px; }
-text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
+text.regular, tspan.regular { /* 2.5mm */ font-size: 4.2px; }
 text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
-text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
-.material-blank { fill: white; }
+text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
+
 .material-blackwater { fill: white; stroke: violet; stroke-width: 0.5; }
 .material-hotwater { fill: white; stroke: red; stroke-width: 0.5; }
 .material-coldwater { fill: white; stroke: blue; stroke-width: 0.5; }
@@ -71,8 +255,7 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 .material-crosshatch1 { fill: url(#crosshatch1); }
 .material-crosshatch2 { fill: url(#crosshatch2); }
 .material-crosshatch3 { fill: url(#crosshatch3); }
-.material-brick { fill: url(#brick); }
-.material-brick2 { fill: url(#brick2); }
+
 .material-randomrubble { fill: url(#randomrubble); }
 .material-earth { fill: url(#earth); }
 .material-glass { fill: url(#glass); }
@@ -87,3 +270,25 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 .PredefinedType-STEEL { fill: url(#steel); stroke: black; stroke-width: 0.5; }
 .PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
 .PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
+.IfcReinforcingBar { fill: none; stroke: rgb(255, 0, 0); stroke-linecap: 'round'; stroke-width: 2; }
+
+
+.IfcCovering {
+    fill: rgb(165, 201, 242);
+    fill-opacity: .1;
+    stroke: rgb(165, 201, 242);
+    stroke-opacity: 0.1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+} 
+
+
+.IfcLightFixture.typeName-LEDStrip{
+    fill: none;
+    stroke: rgb(25, 195, 7);
+    stroke-opacity: 0.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
