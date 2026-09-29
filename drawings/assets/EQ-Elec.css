@@ -93,6 +93,17 @@ text, tspan {
     stroke-linejoin: round;
     stroke-width: 0.25;
 } 
+
+.IfcUnitaryEquipment {
+    fill: none;
+    stroke: rgb(249, 13, 249);
+    stroke-opacity: 0.9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+} 
+
+
 .IfcSanitaryTerminal {
     fill: rgb(234, 239, 246);
     fill-opacity: .5;
