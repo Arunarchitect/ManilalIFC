@@ -222,6 +222,7 @@ text, tspan {
 
 .PredefinedType-LINEWORK { stroke: black; stroke-width: 0.25; }
 .PredefinedType-LINEWORK.dashed { stroke-dasharray: 3, 2; }
+.PredefinedType-LINEWORK.wire { stroke-dasharray: 3, 2; stroke: #f00a0a;}
 .PredefinedType-LINEWORK.fine { stroke-width: 0.18; stroke: #777777; }
 .PredefinedType-LINEWORK.thin { stroke-width: 0.25; }
 .PredefinedType-LINEWORK.medium { stroke-width: 0.35; }
@@ -301,5 +302,14 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
     stroke-opacity: 0.8;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke-width: 0.25;
+    stroke-width: 0.5;
+}
+
+.IfcLightFixture.typeName-LED15W {
+    fill: rgb(255, 0, 0);
+    stroke: rgb(195, 7, 95);
+    stroke-opacity: 0.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width:1;
 }
