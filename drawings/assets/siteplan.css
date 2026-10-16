@@ -93,3 +93,64 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 
 
 
+/* =========================================
+   BASE STYLE
+   ========================================= */
+
+.IfcPipeSegment {
+    fill: none;
+    stroke: #546E7A;
+    stroke-width: 0.75;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* SEPTIC / SOIL — BROWN */
+.IfcPipeSegment.typeName-4inchSepticTank,
+.IfcPipeSegment.typeName-4inchPVCSepticline,
+.IfcPipeSegment.typeName-4inchPVCSepticlineSilencio {
+    stroke: #795548;
+}
+
+/* RAINWATER — TEAL */
+.IfcPipeSegment.typeName-4inchPVCRainwater {
+    stroke: #00897B;
+}
+
+/* BATH / BASIN WASTE — PURPLE */
+.IfcPipeSegment.typeName-2_5inchPVCBath,
+.IfcPipeSegment.typeName-2_5inchPVCBathSilencio,
+.IfcPipeSegment.typeName-1_5inchPVCBasinWasteline,
+.IfcPipeSegment.typeName-4inchPVCBathwaste {
+    stroke: #7B1FA2;
+}
+
+/* FOOD WASTE — MAGENTA */
+.IfcPipeSegment.typeName-2_5inchPVCFoodWaste,
+.IfcPipeSegment.typeName-2_5inchPVCFoodWasteSilencio,
+.IfcPipeSegment.typeName-4inchPVCFoodWaste {
+    stroke: #C2185B;
+}
+
+/* COLD-WATER INLET — BLUE */
+.IfcPipeSegment.typeName-34inchCPVCInlet,
+.IfcPipeSegment.typeName-34inchPVCInlet,
+.IfcPipeSegment.typeName-1inchPVCInlet,
+.IfcPipeSegment.typeName-125inchPVCInlet {
+    stroke: #1565C0;
+}
+
+/* HOT WATER — RED */
+.IfcPipeSegment.typeName-34inchCPVCInletHW,
+.IfcPipeSegment.typeName-34inchHWInsulation {
+    stroke: #E53935;
+}
+
+/* PRESSURE-WATER SUPPLY — SLATE GREY */
+.IfcPipeSegment.typeName-2inchPVC10kgcm2,
+.IfcPipeSegment.typeName-2inchPVC6Kgcm2 {
+    stroke: #546E7A;
+}
+
+
+.IfcTank { fill: none; stroke: rgb(0, 38, 255); stroke-linecap: 'round'; stroke-width: 0.25; }
