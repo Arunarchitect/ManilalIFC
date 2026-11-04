@@ -132,6 +132,17 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
     stroke: #C2185B;
 }
 
+
+
+.IfcPipeSegment.typeName-2inchAC {
+    stroke: #ff2200;
+    stroke-width: 0.75;
+}
+.IfcUnitaryEquipment{
+    stroke: #fb00ff;
+    stroke-width: 1.5;
+}
+
 /* COLD-WATER INLET — BLUE */
 .IfcPipeSegment.typeName-34inchCPVCInlet,
 .IfcPipeSegment.typeName-34inchPVCInlet,
