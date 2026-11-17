@@ -1,0 +1,11 @@
+Run from /d/BIM/IFC in Git Bash:
+
+bash
+./syncdraft.bat ManilalIFC
+./syncdraft.bat SreekeshIFC
+
+Or from inside a project folder (no argument needed):
+
+bash
+cd ManilalIFC
+../syncdraft.bat
